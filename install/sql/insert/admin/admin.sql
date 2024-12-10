@@ -1,0 +1,12 @@
+INSERT INTO `admin` (`admin_id`, `username`, `first_name`, `last_name`,`password`, `email`, `url`, `created_at`, `token`, `status`, `site_access`, `display_name`, `avatar`, `bio`, `role_id`) VALUES
+
+(1, 'admin', 'Admin', 'Admin', '$2y$11$o52ahesifBsklkPV8eTWSeoKbBHJXxaoDZUIDYiFYdAmHQSyfDM3W', 'admin@admin.com', '', '2022-05-01 00:00:00', '', 0, '[]', 'Admin', 'user.svg', 'Has access everywhere', 1),
+(2, 'administrator',  'Administrator', 'Administrator', '$2y$11$o52ahesifBsklkPV8eTWSeoKbBHJXxaoDZUIDYiFYdAmHQSyfDM3W', 'demo@admin.com', '', '2022-05-01 00:00:00', '', 0, '[]', 'Administrator', 'user.svg', 'Has access everywhere except admin user and role management', 2),
+(3, 'site-admin',  'Site Administrator', 'Site Administrator', '$2y$11$o52ahesifBsklkPV8eTWSeoKbBHJXxaoDZUIDYiFYdAmHQSyfDM3W', 'demo@admin.com', '', '2022-05-01 00:00:00', '', 0, '[]', 'Site Admin', 'user.svg', 'Manages content, products and orders', 3),
+(4, 'editor', 'Editor', 'Editor','$2y$11$o52ahesifBsklkPV8eTWSeoKbBHJXxaoDZUIDYiFYdAmHQSyfDM3W', 'demo@admin.com', '', '2022-05-01 00:00:00', '', 0, '[]', 'Editor', 'user.svg', 'Manages content', 4),
+(5, 'author', 'Author', 'Author', '$2y$11$o52ahesifBsklkPV8eTWSeoKbBHJXxaoDZUIDYiFYdAmHQSyfDM3W', 'demo@admin.com', '', '2022-05-01 00:00:00', '', 0, '[]', 'Author', 'user.svg', 'Can add and update content', 5),
+(6, 'contributor', 'Contributor', 'Contributor', '$2y$11$o52ahesifBsklkPV8eTWSeoKbBHJXxaoDZUIDYiFYdAmHQSyfDM3W', 'demo@admin.com', '', '2022-05-01 00:00:00', '', 0, '[]', 'Contributor', 'user.svg', 'Can add and update content', 5),
+(7, 'shop', 'Shop', 'Shop', '$2y$11$o52ahesifBsklkPV8eTWSeoKbBHJXxaoDZUIDYiFYdAmHQSyfDM3W', 'demo@admin.com', '', '2022-05-01 00:00:00', '', 0, '[]', 'Shop assistant', 'user.svg', 'Manages products and orders', 7),
+(8, 'vendor', 'Vendor', 'Vendor', '$2y$11$o52ahesifBsklkPV8eTWSeoKbBHJXxaoDZUIDYiFYdAmHQSyfDM3W', 'demo@admin.com', '', '2022-05-01 00:00:00', '', 0, '[]', 'Vendor', 'user.svg', 'Can add own products and process orders', 8),
+(9, 'rest', 'Rest', 'Rest', '$2y$11$o52ahesifBsklkPV8eTWSeoKbBHJXxaoDZUIDYiFYdAmHQSyfDM3W', 'demo@admin.com', '', '2022-05-01 00:00:00', '', 0, '[]', 'Rest Api', 'user.svg', 'Rest API access user', 9),
+(10, 'demo', 'Demo', 'Demo', '$2y$11$oNa5z5S1gabs8vB/GU9KRuFxw1psuMx8rPaVjnVLm8mm./ufAiRgm', 'demo@admin.com', '', '2022-05-01 00:00:00', '', 0, '[]', 'Demo', 'user.svg', 'Read only account with access everywhere', 10);

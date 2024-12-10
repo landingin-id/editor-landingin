@@ -1,0 +1,24 @@
+@@include('_includes/header.html')
+@@include('sections/influencer/navigation.html')
+@@include('sections/influencer/page-header.html', {
+"title": "A brand for a company is like a reputation for a person. ",
+"description": "News details"
+})
+
+
+<section class="section blog-wrap border-bottom">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                @@include('sections/influencer/blog-single.html')
+            </div>
+            <div class="col-lg-4">
+                @@include('sections/influencer/post-sidebar.html')
+            </div>   
+        </div>
+    </div>
+</section>
+
+
+@@include('sections/influencer/footer.html')
+@@include('_includes/footer.html')
