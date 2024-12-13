@@ -1,24 +1,25 @@
 <!DOCTYPE html>
-<html style="scrollbar-width: thin;scrollbar-color: #edecef #ffffff;" lang="en" data-bs-theme="light"><head>
-    <base href="/public/themes/influencer/">
+<html lang="en" style="scrollbar-width: thin;scrollbar-color: #edecef #ffffff;" data-bs-theme="light" <?php  if (isset($_COOKIE['theme'])) { echo 'data-bs-theme="'; if ($_COOKIE['theme'] == 'dark') echo 'dark'; else if ($_COOKIE['theme'] == 'light') echo 'light';else echo 'auto'; echo '"'; } $vvveb_is_page_edit = Vvveb\isEditor();  ?>><head>
+    <base href="<?php  echo Vvveb\themeUrlPath() ?>">
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="keywords" content="Funnel Marketing">
+    <meta name="description" content="<?php if (isset($this->post['meta_description'])) echo htmlentities($this->post['meta_description']); ?>">
+    <meta name="keywords" content="<?php if (isset($this->post['meta_keywords'])) echo htmlentities($this->post['meta_keywords']); ?>">
 
     <meta name="author" content="themefisher.com">
 
     <meta name="theme-name" content="influencer">
 
-    <title>Tahapan membuat funnel marketing yang efektif untuk meningkatkan konversi</title>
+    <title><?php if (isset($this->post['name']
+)) echo htmlentities($this->post['name']
+); ?></title>
 
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
 
     <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
 
     <link rel="stylesheet" href="plugins/animate-css/animate.css">
-    <link rel="stylesheet" href="css/style.css">
 
     <link rel="stylesheet" href="plugins/themify/css/themify-icons.css">
     <link rel="stylesheet" href="plugins/magnific-popup/magnific-popup.css">
@@ -28,11 +29,12 @@
     <link rel="stylesheet" href="plugins/owl-carousel/owl.css">
 
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="css/block.css">
 
         <style></style>
-  <link id="google-fonts-link" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Alata" rel="stylesheet"><link id="google-fonts-link" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Alata&amp;family=Alata" rel="stylesheet"><link id="google-fonts-link" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Alata" rel="stylesheet"><link id="google-fonts-link" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Alata" rel="stylesheet"><link id="google-fonts-link" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Alata" rel="stylesheet"><link id="google-fonts-link" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Alata" rel="stylesheet"><link id="google-fonts-link" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Alata" rel="stylesheet"><link id="google-fonts-link" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Alata" rel="stylesheet"><style id="vvvebjs-styles">:root {
+  <link id="google-fonts-link" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Alata" rel="stylesheet"><link id="google-fonts-link" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Alatsi" rel="stylesheet"><link id="google-fonts-link" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Alatsi&amp;family=Allerta" rel="stylesheet"><link id="google-fonts-link" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Allerta" rel="stylesheet"><?php if (isset($vvveb_is_page_edit
+) && !$vvveb_is_page_edit
+) { ?><style id="vvvebjs-styles">:root {
 	--light: undefined;
 }
 
@@ -943,7 +945,6 @@
 	height: 30px;
 	width: 211.375px;
 	color: rgb(248, 249, 250);
-	text-align: left;
 }
 
 #box_fitur_5 > .py-4 > .container > .row > .col.col-sm-2 > svg {
@@ -2863,39 +2864,6 @@ div > .py-4 > .py-4 > .container > .row > .col-lg-12 > .markdown-content.w-full.
 	color: rgb(248, 249, 250);
 }
 
-.header-7 > .container > .row.justify-content-between > .col-lg-7.col-md-8 > .main-banner > .mb-3.mt-2 {
-	color: rgb(248, 249, 250);
-	font-family: Alata;
-	line-height: 70px;
-	text-align: left;
-}
-
-.header-7 > .container > .row.justify-content-between > .col-lg-7.col-md-8 > .main-banner > .mb-4 {
-	color: rgb(248, 249, 250);
-}
-
-.header-7 > .container > .row.justify-content-between > .col-lg-7.col-md-8 > .main-banner > .btn.btn-main.mt-2 {
-	background-color: rgb(255, 193, 7);
-	color: rgb(0, 0, 0);
-}
-
-.header-7 > .container > .row.justify-content-between > .col-lg-7.col-md-8 > .main-banner > .text-color.font-weight-bold {
-	color: rgb(248, 249, 250);
-}
-
-.header-7 > .container > .row.justify-content-between > .col-lg-7.col-md-8 > .main-banner {
-	padding-bottom: 0px;
-}
-
-#site-content > .container > .row > .col-lg-12 > .text-lg.mb-4 {
-	font-family: Alata;
-	line-height: 57px;
-}
-
-#site-content > .container {
-	margin-top: 20px;
-}
-
 @media screen and (max-width: 320px){
 
 #cont-tree-column > .container > .row > .col {
@@ -2905,63 +2873,26 @@ div > .py-4 > .py-4 > .container > .row > .col-lg-12 > .markdown-content.w-full.
 
 }
 
-</style><link id="google-fonts-link" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Alata" rel="stylesheet"></head>
+</style><?php } ?><?php  $vvveb_is_page_edit = Vvveb\isEditor(); $is_admin = \Vvveb\isAdmin(); if ($is_admin && !$vvveb_is_page_edit) { echo '<link href="' . Vvveb\publicUrlPath() . 'admin/default/css/admin-bar.css" rel="stylesheet">'; } if ($is_admin && $vvveb_is_page_edit) { $customCssFile = DIR_THEMES . Vvveb\System\Sites::getTheme() . DS . 'css'. DS . 'custom.css'; if (file_exists($customCssFile)) { $css = file_get_contents($customCssFile); echo "<style id=\"vvvebjs-styles\">$css</style>"; } }  ?></head>
 
-  <body id="top-header" class="post" data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">    <section class="main-navigation fixed-top site-header" id="mainmenu-area">
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container align-items-center">
-          <a class="navbar-brand" href="/">
-            <h2 class="mb-0"><font color="#cc302b">Digi</font>encer</h2>
-          </a>
-
-          <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation" fdprocessedid="fbugp">
-            <span class="ti-menu-alt"></span>
-          </button>
-
-          
-          <div class="navbar-collapse collapse" id="navbar" data-v-component-menu="header" data-v-slug="main-menu" style="">
-            <ul class="navbar-nav ms-auto" data-v-menu-items="">
-              <li class="nav-item                      " data-v-menu-item="" data-v-id="1" data-v-component="menu" data-v-type="menu-item">
-                <a class="nav-link" href="" data-v-menu-item-url="">
-                  <span data-v-menu-item-name=""></span>
-                </a>
-                              <div class="dropdown-menu" data-v-menu-item-recursive="">
-                <div data-v-menu-item="" class="nav-item  " data-v-class-if-dropdown="category.children > 0" data-v-id="2" data-v-component="menu" data-v-type="menu-item">
-                  <a class="dropdown-item  " data-v-class-if-active="category.active" href="" data-v-menu-item-url="">
-                    <span data-v-menu-item-name="" data-v-if-not="category.type = 'text'" class="                      "></span>                                      </a>
-                </div>                
-              </div></li><li class="nav-item                      " data-v-menu-item="" data-v-id="3" data-v-component="menu" data-v-type="menu-item">
-                <a class="nav-link" href="" data-v-menu-item-url="">
-                  <span data-v-menu-item-name=""></span>
-                </a>
-                              </li><li class="nav-item                      " data-v-menu-item="" data-v-id="10" data-v-component="menu" data-v-type="menu-item">
-                <a class="nav-link" href="/landingin/cms-landingin/" data-v-menu-item-url="">
-                  <span data-v-menu-item-name="">Beranda</span>
-                </a>
-                              </li><li class="nav-item                      " data-v-menu-item="" data-v-id="23" data-v-component="menu" data-v-type="menu-item">
-                <a class="nav-link" href="/?route=content/page/index&amp;slug=tentang-kami" data-v-menu-item-url="">
-                  <span data-v-menu-item-name="">Tentang Kami</span>
-                </a>
-                              </li>            </ul>
-
-            <div class="navbar-collapse collapse" id="navbar" data-v-component-menu="header" data-v-slug="main-menu" style="">
-            <ul class="navbar-nav ms-auto" data-v-menu-items=""></ul>
-
-            <a href="checkout.html" class="btn btn-border-tp btn-small ml-3">DIGITAL MARKETING INDONESIA</a>
-          </div>
-            
-          </div>
-        </div>
-      </nav>
+  <body id="top-header" data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0"><?php  if (isset($is_admin) && $is_admin && !$vvveb_is_page_edit) { include_once(DIR_ROOT . '/admin/admin-bar.php'); }  ?>    <section class="main-navigation fixed-top site-header" id="mainmenu-area">
+      
     </section>
 
     
-    <div class="section page-banner-area bg-grey">
+    <?php  if (isset($post_idx)) $post_idx++; else $post_idx = 0; $post = $this->_component['post'][$post_idx] ?? [];  ?><div data-v-component-post="" class="section page-banner-area bg-grey" data-v-id="<?php if (isset($post['post_id'])) echo htmlentities($post['post_id']); ?>" data-v-type="post">
         <div class="container">
-             
+        <div class="row justify-content-center">
+            <div class="col-lg-9 col-md-12 col-12 ">
+            <div class="page-banner-content text-center">
+                <h2 data-v-post-name="" class="text-lg mb-4"><?php if (isset($post['name']
+)) echo htmlentities($post['name']
+); ?></h2>
+            </div>
+            </div>
         </div> 
-    </div>
-    <div>
+        </div> 
+    </div><div class="section produk-fitur-2" id="chapter-10">
     
       
       <div class="container">
@@ -2969,166 +2900,6 @@ div > .py-4 > .py-4 > .container > .row > .col-lg-12 > .markdown-content.w-full.
       </div>
     
 
-<main id="site-content" role="main" data-v-component-post="post" data-v-id="2" data-v-type="post">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12">
-        <h2 data-v-post-name="" class="text-lg mb-4" style="text-align: center;">Tahapan membuat funnel marketing yang efektif untuk meningkatkan konversi</h2>
-        
-      </div>
-    </div>
-    <ul class="post-meta" id="post-meta">
-
-            <li class="post-author meta-wrapper">
-              <span class="meta-icon">
-                
-                <i class="la la-user"></i>
-              </span>
-              <span class="meta-text">
- By <a href="/author/admin" data-v-post-author-url="">
-                  <span data-v-post-display_name="">admin</span>
-                </a>
-              </span>
-            </li>
-
-            <li class="post-date meta-wrapper">
-              <span class="meta-icon">
-                
-
-                <i class="la la-calendar"></i>
-              </span>
-              <span class="meta-text">
-                <a href="/contoh-postingan-pertama-2" data-v-post-url="" title="Tahapan membuat funnel marketing yang efektif untuk meningkatkan konversi">
-                  <span data-v-post-created_at="">2022-05-02 00:00:00</span>
-                </a>
-              </span>
-            </li>
-            <li class="post-comment-link meta-wrapper">
-              <span class="meta-icon">
-                <i class="la la-comment"></i>
-              </span>
-              <span class="meta-text">
-                <a href="/contoh-postingan-pertama-2#comments" data-v-post-comments-url="">
-                  <span data-v-post-comment_text="">0 comments</span>
-                </a>
-              </span>
-            </li>
-
-          </ul>
-          <br>
-          <img class="img-fluid w-100 align-center" src="/public/media//noimage-post.jpg" alt="Card image cap" data-aos="zoom-in-up" data-aos-duration="500" loading="lazy" data-v-post-image="" data-v-if="post.image">      
-  </div>
-<section title="one column" class="py-4">
-  <div class="container">
-    <div class="row">
-
-      
-
-      <div class="col-lg-12" data-v-post-content="">
-<div class="markdown-content w-full text-base leading-7 overflow-x-auto" data-sentry-element="unknown" data-sentry-source-file="message-chunk.tsx">
-<h3>1.<span>&nbsp;</span><strong>Kesadaran (Awareness)</strong></h3>
-<ul>
-<li><strong>Tujuan:</strong><span>&nbsp;</span>Membangun kesadaran tentang produk atau layanan Anda.</li>
-<li><strong>Aktivitas:</strong>
-<ul>
-<li>Gunakan iklan online, konten blog, media sosial, dan SEO untuk menarik perhatian audiens.</li>
-<li>Buat konten yang informatif dan menarik untuk menjangkau audiens yang lebih luas.</li>
-</ul>
-</li>
-</ul>
-</div>
-<div class="markdown-content w-full text-base leading-7 overflow-x-auto" data-sentry-element="unknown" data-sentry-source-file="message-chunk.tsx">
-<h3>2.<span>&nbsp;</span><strong>Minat (Interest)</strong></h3>
-<ul>
-<li><strong>Tujuan:</strong><span>&nbsp;</span>Membangun minat dan ketertarikan audiens terhadap produk atau layanan Anda.</li>
-<li><strong>Aktivitas:</strong>
-<ul>
-<li>Tawarkan konten yang lebih mendalam, seperti e-book, webinar, atau video yang menjelaskan manfaat produk.</li>
-<li>Gunakan email marketing untuk mengirim informasi lebih lanjut kepada audiens yang menunjukkan minat.</li>
-</ul>
-</li>
-</ul>
-</div>
-<div class="markdown-content w-full text-base leading-7 overflow-x-auto" data-sentry-element="unknown" data-sentry-source-file="message-chunk.tsx">
-<h3>3.<span>&nbsp;</span><strong>Pertimbangan (Consideration)</strong></h3>
-<ul>
-<li><strong>Tujuan:</strong><span>&nbsp;</span>Membantu audiens mempertimbangkan produk atau layanan Anda sebagai solusi.</li>
-<li><strong>Aktivitas:</strong>
-<ul>
-<li>Tampilkan testimoni, studi kasus, dan ulasan dari pelanggan yang puas.</li>
-<li>Bandingkan produk Anda dengan kompetitor untuk menunjukkan keunggulan.</li>
-</ul>
-</li>
-</ul>
-</div>
-<div class="markdown-content w-full text-base leading-7 overflow-x-auto" data-sentry-element="unknown" data-sentry-source-file="message-chunk.tsx">
-<h3>4.<span>&nbsp;</span><strong>Niat (Intent)</strong></h3>
-<ul>
-<li><strong>Tujuan:</strong><span>&nbsp;</span>Mendorong audiens untuk menunjukkan niat membeli.</li>
-<li><strong>Aktivitas:</strong>
-<ul>
-<li>Tawarkan penawaran khusus, diskon, atau uji coba gratis untuk mendorong keputusan pembelian.</li>
-<li>Gunakan retargeting untuk menjangkau pengunjung yang telah menunjukkan minat tetapi belum melakukan pembelian.</li>
-</ul>
-</li>
-</ul>
-</div>
-<div class="markdown-content w-full text-base leading-7 overflow-x-auto" data-sentry-element="unknown" data-sentry-source-file="message-chunk.tsx">
-<h3>5.<span>&nbsp;</span><strong>Evaluasi (Evaluation)</strong></h3>
-<ul>
-<li><strong>Tujuan:</strong><span>&nbsp;</span>Membantu audiens dalam proses pengambilan keputusan akhir.</li>
-<li><strong>Aktivitas:</strong>
-<ul>
-<li>Berikan informasi yang jelas tentang harga, fitur, dan manfaat produk.</li>
-<li>Tawarkan konsultasi atau demo produk untuk membantu audiens memahami lebih baik.</li>
-</ul>
-</li>
-</ul>
-</div>
-<div class="markdown-content w-full text-base leading-7 overflow-x-auto" data-sentry-element="unknown" data-sentry-source-file="message-chunk.tsx">
-<h3>6.<span>&nbsp;</span><strong>Pembelian (Purchase)</strong></h3>
-<ul>
-<li><strong>Tujuan:</strong><span>&nbsp;</span>Mendorong audiens untuk melakukan pembelian.</li>
-<li><strong>Aktivitas:</strong>
-<ul>
-<li>Pastikan proses pembelian mudah dan intuitif.</li>
-<li>Tawarkan berbagai metode pembayaran dan jaminan kepuasan untuk mengurangi keraguan.</li>
-</ul>
-</li>
-</ul>
-</div>
-<div class="markdown-content w-full text-base leading-7 overflow-x-auto" data-sentry-element="unknown" data-sentry-source-file="message-chunk.tsx">
-<h3>7.<span>&nbsp;</span><strong>Loyalitas (Loyalty)</strong></h3>
-<ul>
-<li><strong>Tujuan:</strong><span>&nbsp;</span>Membangun hubungan jangka panjang dengan pelanggan.</li>
-<li><strong>Aktivitas:</strong>
-<ul>
-<li>Tawarkan program loyalitas, diskon untuk pembelian berikutnya, atau konten eksklusif untuk pelanggan setia.</li>
-<li>Kirim email follow-up untuk meminta umpan balik dan menawarkan dukungan.</li>
-</ul>
-</li>
-</ul>
-</div>
-<div class="markdown-content w-full text-base leading-7 overflow-x-auto" data-sentry-element="unknown" data-sentry-source-file="message-chunk.tsx">
-<h3>8.<span>&nbsp;</span><strong>Advokasi (Advocacy)</strong></h3>
-<ul>
-<li><strong>Tujuan:</strong><span>&nbsp;</span>Mendorong pelanggan untuk merekomendasikan produk atau layanan Anda kepada orang lain.</li>
-<li><strong>Aktivitas:</strong>
-<ul>
-<li>Ajak pelanggan untuk meninggalkan ulasan atau testimoni.</li>
-<li>Tawarkan insentif bagi pelanggan yang merekomendasikan produk Anda kepada orang lain.</li>
-</ul>
-</li>
-</ul>
-</div>
-<div class="markdown-content w-full text-base leading-7 overflow-x-auto" data-sentry-element="unknown" data-sentry-source-file="message-chunk.tsx">
-<h3>Kesimpulan</h3>
-<p>Membuat funnel marketing yang efektif melibatkan pemahaman perjalanan pelanggan dari kesadaran hingga advokasi. Dengan merancang setiap tahap dengan baik dan memberikan nilai yang sesuai, Anda dapat meningkatkan konversi dan membangun hubungan jangka panjang dengan pelanggan.</p>
-</div>
-</div>
-    </div>
-
-	
 </div>
 
     
@@ -3138,20 +2909,20 @@ div > .py-4 > .py-4 > .container > .row > .col-lg-12 > .markdown-content.w-full.
         <div class="row justify-content-between align-items-center">
           <div class="col-lg-6 col-sm-12">
             <div class="footer-widget">
-              <h2 class="mb-4">Digiencer</h2>
+              <h2 class="mb-4"><?php echo \Vvveb\__('Digiencer'); ?></h2>
               <p class="mb-4">
-	Di dunia yang semakin digital, strategi pemasaran yang tepat
+	<?php echo \Vvveb\__('Di dunia yang semakin digital, strategi pemasaran yang tepat
 	adalah kunci untuk menonjol. Kami di [Nama Perusahaan] siap
 	membantu Anda menjangkau audiens yang lebih luas dan
 	meningkatkan penjualan dengan solusi digital yang inovatif. isi
-	dari ebook ini terkait tentang : 
+	dari ebook ini terkait tentang :'); ?> 
 	</p>
             </div>
           </div>
 
           <div class="col-lg-6">
             <div class="subscribe">
-              <h4 class="mb-4">Dapatkan informasi terbaru dari kami</h4>
+              <h4 class="mb-4"><?php echo \Vvveb\__('Dapatkan informasi terbaru dari kami'); ?></h4>
               
 
               
@@ -3160,49 +2931,49 @@ div > .py-4 > .py-4 > .container > .row > .col-lg-12 > .markdown-content.w-full.
 
 		<div class="notifications" data-v-notifications="">
 
-			<div class="alert alert-danger d-flex alert-dismissable                    " role="alert" data-v-if="this.errors">
+			<?php  $condition = ( (isset($this->errors) && ($this->errors  )) ); if (@($condition) || (isset($vvveb_is_page_edit) && $vvveb_is_page_edit)) {  ?><div class="alert alert-danger d-flex alert-dismissable          <?php  if ((isset($vvveb_is_page_edit) && $vvveb_is_page_edit) && !$condition) echo 'vvveb-hidden' ?>" role="alert" data-v-if="this.errors">
 
 				<div class="icon align-middle me-2">
 					<i class="align-middle la la-2x lh-1 la-exclamation-triangle"></i>
 				</div>
 
 				<div class="flex-grow-1 align-self-center text-small">
-					<div data-v-notification-error="">
-						<div data-v-notification-text="">Form isian gagal terkirim</div>
-					</div>				</div>
+					<?php  $type = ''; if (isset($this->errors) && is_array($this->errors)) { foreach($this->errors as $id => $list) { if (!empty($type) && $id != $type) continue; if (!is_array($list)) { $list = [$list]; } foreach ($list as $message) {  ?><div data-v-notification-error="">
+						<div data-v-notification-text=""><?php  echo($message); ?></div>
+					</div><?php  } } }  ?>				</div>
 
 
 				
-			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="41" height="64" fill="#dc3545" class="btn-close"><defs><style>.eva-11{fill:#fff;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="close-square"><g id="close-square-2" data-name="close-square"><rect class="eva-11"></rect><path class="eva-12" d="M18,3H6A3,3,0,0,0,3,6V18a3,3,0,0,0,3,3H18a3,3,0,0,0,3-3V6A3,3,0,0,0,18,3ZM14.71,13.29a1,1,0,0,1,0,1.42,1,1,0,0,1-1.42,0L12,13.41l-1.29,1.3a1,1,0,0,1-1.42,0,1,1,0,0,1,0-1.42L10.59,12l-1.3-1.29a1,1,0,0,1,1.42-1.42L12,10.59l1.29-1.3a1,1,0,0,1,1.42,1.42L13.41,12Z" fill="#dc3545" color="#dc3545"></path></g></g></g></svg></div>			<div class="alert alert-success d-flex  alert-dismissable d-flex" role="alert" data-v-notification-success="">
+			<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" width="41" height="64" fill="#dc3545" class="btn-close"><defs><style>.eva-11{fill:#fff;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="close-square"><g id="close-square-2" data-name="close-square"><rect class="eva-11"></rect><path class="eva-12" d="M18,3H6A3,3,0,0,0,3,6V18a3,3,0,0,0,3,3H18a3,3,0,0,0,3-3V6A3,3,0,0,0,18,3ZM14.71,13.29a1,1,0,0,1,0,1.42,1,1,0,0,1-1.42,0L12,13.41l-1.29,1.3a1,1,0,0,1-1.42,0,1,1,0,0,1,0-1.42L10.59,12l-1.3-1.29a1,1,0,0,1,1.42-1.42L12,10.59l1.29-1.3a1,1,0,0,1,1.42,1.42L13.41,12Z" fill="#dc3545" color="#dc3545"></path></g></g></g></svg></div><?php  }  ?>			<?php  $type = ''; if (isset($this->success) && is_array($this->success)) { foreach($this->success as $id => $list) { if (!empty($type) && $id != $type) continue; if (!is_array($list)) { $list = [$list]; } foreach ($list as $message) {  ?><div class="alert alert-success d-flex  alert-dismissable d-flex" role="alert" data-v-notification-success="">
 
 				<div class="icon align-middle me-2">
 					<i class="align-middle la la-2x lh-1 la-check-circle"></i>
 				</div>
 
-				<div class="flex-grow-1 align-self-center align-middle" data-v-notification-text="">Form isian telah berhasil terkirim</div>
+				<div class="flex-grow-1 align-self-center align-middle" data-v-notification-text=""><?php  echo($message); ?></div>
 
 				
-			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="41" height="64" fill="#28a745" class="btn-close"><defs><style>.eva-11{fill:#fff;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="close-square"><g id="close-square-2" data-name="close-square"><rect class="eva-11"></rect><path class="eva-12" d="M18,3H6A3,3,0,0,0,3,6V18a3,3,0,0,0,3,3H18a3,3,0,0,0,3-3V6A3,3,0,0,0,18,3ZM14.71,13.29a1,1,0,0,1,0,1.42,1,1,0,0,1-1.42,0L12,13.41l-1.29,1.3a1,1,0,0,1-1.42,0,1,1,0,0,1,0-1.42L10.59,12l-1.3-1.29a1,1,0,0,1,1.42-1.42L12,10.59l1.29-1.3a1,1,0,0,1,1.42,1.42L13.41,12Z" fill="#dc3545" color="#dc3545"></path></g></g></g></svg></div>		</div>
+			<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" width="41" height="64" fill="#28a745" class="btn-close"><defs><style>.eva-11{fill:#fff;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="close-square"><g id="close-square-2" data-name="close-square"><rect class="eva-11"></rect><path class="eva-12" d="M18,3H6A3,3,0,0,0,3,6V18a3,3,0,0,0,3,3H18a3,3,0,0,0,3-3V6A3,3,0,0,0,18,3ZM14.71,13.29a1,1,0,0,1,0,1.42,1,1,0,0,1-1.42,0L12,13.41l-1.29,1.3a1,1,0,0,1-1.42,0,1,1,0,0,1,0-1.42L10.59,12l-1.3-1.29a1,1,0,0,1,1.42-1.42L12,10.59l1.29-1.3a1,1,0,0,1,1.42,1.42L13.41,12Z" fill="#dc3545" color="#dc3545"></path></g></g></g></svg></div><?php  } } }  ?>		</div>
 
 	<form action="" method="post" data-v-vvveb-action="submit" data-selector="[data-v-component-plugin-contact-form-form]" data-v-vvveb-on="submit">
-	  <input type="hidden" class="form-control" placeholder="First name" name="firstname-empty" value="">	
+	  <input type="hidden" class="form-control" placeholder="First name" name="firstname-empty" value="<?php  $name = 'firstname-empty'; $value = ''; if (isset($_POST[$name])) echo $_POST[$name]; else if (isset($_GET[$name])) echo $_GET[$name]; else echo $value;  ?>">	
 
 	  <div class="row mt-4">
 		<div class="col">
-		  <input type="email" class="form-control" placeholder="Masukan Nama Email" name="email" required="" fdprocessedid="iz9weh" value="">
+		  <input type="email" class="form-control" placeholder="Masukan Nama Email" name="email" required="" fdprocessedid="iz9weh" value="<?php  $name = 'email'; $value = ''; if (isset($_POST[$name])) echo $_POST[$name]; else if (isset($_GET[$name])) echo $_GET[$name]; else echo $value;  ?>">
 		</div>
 	  </div>
 	  <div class="row mt-4">
 		<div class="col">
-		  <textarea class="form-control" name="message" rows="3" placeholder="Tinggalkan Pesan" required=""></textarea>
+		  <textarea class="form-control" name="message" rows="3" placeholder="Tinggalkan Pesan" required=""><?php  $name = 'message'; $value = ''; if (isset($_POST[$name])) echo $_POST[$name]; else if (isset($_GET[$name])) echo $_GET[$name]; else echo $value;  ?></textarea>
 		</div>
 	  </div>
 
 	 
 
-	 <input type="text" class="form-control d-none" placeholder="Contact form" name="contact-form" value="">	
+	 <input type="text" class="form-control d-none" placeholder="Contact form" name="contact-form" value="<?php  $name = 'contact-form'; $value = ''; if (isset($_POST[$name])) echo $_POST[$name]; else if (isset($_GET[$name])) echo $_GET[$name]; else echo $value;  ?>">	
 	 
-	 <input type="text" class="form-control d-none" placeholder="Subject" name="subject-empty" value="">	
+	 <input type="text" class="form-control d-none" placeholder="Subject" name="subject-empty" value="<?php  $name = 'subject-empty'; $value = ''; if (isset($_POST[$name])) echo $_POST[$name]; else if (isset($_GET[$name])) echo $_GET[$name]; else echo $value;  ?>">	
 	 
 	 	
 	 
@@ -3213,10 +2984,10 @@ div > .py-4 > .py-4 > .container > .row > .col-lg-12 > .markdown-content.w-full.
                   <span class="loading d-none">
                     <span class="spinner-border spinner-border-sm align-middle" role="status" aria-hidden="true">
                     </span>
-                    <span>Submitting</span> ... </span>
+                    <span><?php echo \Vvveb\__('Submitting'); ?></span> <?php echo \Vvveb\__('...'); ?> </span>
 
                   <span class="button-text">
-                    <span>Submit</span>
+                    <span><?php echo \Vvveb\__('Submit'); ?></span>
                     <i class="la la-lg la-envelope opacity-50 ms-2"></i>
                   </span>
                 </button>
@@ -3231,7 +3002,7 @@ div > .py-4 > .py-4 > .container > .row > .col-lg-12 > .markdown-content.w-full.
         <div class="row footer-btm mt-5 pt-4 border-top">
           <div class="col-lg-6">
             <p class="footer-copy">
- 	© Copyright <span class="current-year">Landingin.id</span> All rights reserved 2024. 
+ 	<?php echo \Vvveb\__('&copy; Copyright'); ?> <span class="current-year"><?php echo \Vvveb\__('Landingin.id'); ?></span> <?php echo \Vvveb\__('All rights reserved 2024.'); ?> 
 	</p>
           </div>
           <div class="col-lg-6">
@@ -3245,16 +3016,16 @@ div > .py-4 > .py-4 > .container > .row > .col-lg-12 > .markdown-content.w-full.
       </a>
     </footer>
 
-    <script src="plugins/jquery/jquery.min.js"></script>
+    <script src="plugins/jquery/jquery.min.js"  ></script>
   
-    <script src="plugins/bootstrap/js/popper.min.js"></script>
-    <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
-    <script src="plugins/owl-carousel/owl-carousel.js"></script>
+    <script src="plugins/bootstrap/js/popper.min.js"  ></script>
+    <script src="plugins/bootstrap/js/bootstrap.min.js"  ></script>
+    <script src="plugins/owl-carousel/owl-carousel.js"  ></script>
     
-    <script src="plugins/magnific-popup/jquery.magnific-popup.js"></script>
+    <script src="plugins/magnific-popup/jquery.magnific-popup.js"  ></script>
 
-    <script id="app-js" src="../../js/app.js"></script>
-    <script src="js/visitor.js"></script>
+    <script id="app-js" src="../../js/app.js"  ></script>
+    <script src="js/visitor.js"  ></script>
 
     <link rel="stylesheet" href="js/aos.css">
     <noscript>
@@ -3266,9 +3037,8 @@ div > .py-4 > .py-4 > .container > .row > .col-lg-12 > .markdown-content.w-full.
       </style>
     </noscript>
 
-    <script src="js/aos.js"></script>
-	<script src="js/theme.js"></script>
-    <script>
+    <script src="js/aos.js"  ></script>
+    <script  >
       AOS.init();
     </script>
   
@@ -3277,15 +3047,4 @@ div > .py-4 > .py-4 > .container > .row > .col-lg-12 > .markdown-content.w-full.
 <span id="PING_IFRAME_FORM_DETECTION" style="display: none;"></span>
 <span id="PING_IFRAME_FORM_DETECTION" style="display: none;"></span>
 <span id="PING_IFRAME_FORM_DETECTION" style="display: none;"></span>
-<span id="PING_IFRAME_FORM_DETECTION" style="display: none;"></span>
-<span id="PING_IFRAME_FORM_DETECTION" style="display: none;"></span>
-<span id="PING_IFRAME_FORM_DETECTION" style="display: none;"></span>
-<span id="PING_IFRAME_FORM_DETECTION" style="display: none;"></span>
-<span id="PING_IFRAME_FORM_DETECTION" style="display: none;"></span>
-<span id="PING_IFRAME_FORM_DETECTION" style="display: none;"></span>
-<span id="PING_IFRAME_FORM_DETECTION" style="display: none;"></span>
-<span id="PING_IFRAME_FORM_DETECTION" style="display: none;"></span>
-<span id="PING_IFRAME_FORM_DETECTION" style="display: none;"></span>
-<span id="PING_IFRAME_FORM_DETECTION" style="display: none;"></span>
-<span id="PING_IFRAME_FORM_DETECTION" style="display: none;"></span></section></main></div>
 <span id="PING_IFRAME_FORM_DETECTION" style="display: none;"></span></body></html>

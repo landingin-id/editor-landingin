@@ -199,12 +199,25 @@ Common Styles
   transition: all 0.3s ease-in-out !important;
 }
 
-.background-container img {
+section {
+  position: relative;
+  overflow: hidden;
+}
+
+.background-container {
+  position: absolute;
+  top: 0;
   width: 100%;
+  min-height: 500px;
+  height: 100vh;
+  z-index: -1;
+}
+
+.background-container img {
   position: absolute;
   top: 0px;
   background-size: cover;
-  height: 100vh;
+  height: 200vh;
   z-index: -1;
 }
 
