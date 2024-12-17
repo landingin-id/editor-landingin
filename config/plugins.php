@@ -6,7 +6,7 @@
     array (
       'status' => 'active',
     ),
-    'chatgpt' => 
+    'sun-editor' => 
     array (
       'status' => 'active',
     ),

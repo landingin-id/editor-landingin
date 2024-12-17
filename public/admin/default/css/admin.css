@@ -27899,7 +27899,7 @@ td:hover .secondary-actions {
   filter: invert(93%) hue-rotate(180deg);
 }
 .sidebar .navbar .sub-menu .nav-item:hover {
-  background: #503bac;
+  background: #fff;
 }
 .sidebar .navbar .nav-link.items {
   position: relative;
@@ -28152,7 +28152,7 @@ html[data-bs-theme="dark"] .sidebar .navbar .nav-item.heading span {
   display: block;
 }
 .small-nav .sidebar .navbar .nav-item > ul {
-  left: 38px !important;
+  left: 59px !important;
 }
 .small-nav .sidebar .navbar .nav-item > ul .sub-menu {
   left: 200px !important;
