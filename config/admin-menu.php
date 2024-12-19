@@ -247,53 +247,6 @@ return
  				'action' => 'index',
  				'icon'   => 'la la-history la-90',
  			],
- 			'import-export' => [
- 				'name'   => __('Import/Export'),
- 				'url'    => $admin_path . '?module=tools/import',
- 				'module' => 'tools/import',
- 				'action' => 'index',
- 				'icon'   => 'la la-upload',
- 				'items'  => [
- 					'content-heading' => [
- 						'name'    => __('Content'),
- 						'heading' => true,
- 					],
- 					'import' => [
- 						'name'   => __('Import content'),
- 						'icon'   => 'la la-file-import',
- 						'url'    => $admin_path . '?module=tools/import',
- 						'module' => 'tools/import',
- 						'action' => 'index',
- 					],
- 					'export' => [
- 						'name'   => __('Export content'),
- 						'icon'   => 'la la-file-export',
- 						'url'    => $admin_path . '?module=tools/export',
- 						'module' => 'tools/export',
- 						'action' => 'index',
- 					],
- 					/*
-					'media-heading' => [
-						'name'    => __('Media'),
-						'heading' => true,
-					],
-					'import-media' => [
-						'name'   => __('Import media'),
-						'icon'   => 'la la-caret-square-left',
-						'url'    => $admin_path . '?module=tools/import',
-						'module' => 'tools/import',
-						'action' => 'index',
-					],
-					'export-media' => [
-						'name'   => __('Export media'),
-						'icon'   => 'la la-caret-square-right',
-						'url'    => $admin_path . '?module=tools/export',
-						'module' => 'tools/export',
-						'action' => 'index',
-					],
-					 */
- 				],
- 			],
  			/*
 			'security' => [
 				'name'   => __('Security'),
@@ -303,29 +256,6 @@ return
 				'icon'   => 'la la-shield-alt',
 			],
 			*/
- 			'system' => [
- 				'name'   => __('System info'),
- 				'url'    => $admin_path . '?module=tools/systeminfo',
- 				'module' => 'tools/systeminfo',
- 				'action' => 'index',
- 				'icon'   => 'la la-info-circle',
- 				'items'  => [
- 					'info' => [
- 						'name'   => __('System Info'),
- 						'icon'   => 'la la-info',
- 						'url'    => $admin_path . '?module=tools/systeminfo',
- 						'module' => 'tools/systeminfo',
- 						'action' => 'index',
- 					],
- 					'error-log' => [
- 						'name'   => __('Error log'),
- 						'url'    => $admin_path . '?module=tools/errorlog',
- 						'module' => 'tools/errorlog',
- 						'action' => 'index',
- 						'icon'   => 'la la-bug',
- 					],
- 				],
- 			],
  		],
  	],
  ];

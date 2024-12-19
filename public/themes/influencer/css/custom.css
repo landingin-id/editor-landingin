@@ -909,7 +909,6 @@
 	height: 30px;
 	width: 211.375px;
 	color: rgb(248, 249, 250);
-	text-align: left;
 }
 
 #box_fitur_5 > .py-4 > .container > .row > .col.col-sm-2 > svg {
@@ -1011,28 +1010,29 @@
 	border-right-style: solid;
 	border-bottom-style: solid;
 	border-left-style: solid;
-	border-top-width: 1px;
-	border-right-width: 1px;
-	border-bottom-width: 1px;
-	border-left-width: 1px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	color: rgb(23, 162, 184);
+	color: rgb(63, 30, 3);
 	border-top-color: rgb(191, 191, 191);
 	border-right-color: rgb(191, 191, 191);
 	border-bottom-color: rgb(191, 191, 191);
 	border-left-color: rgb(191, 191, 191);
-	background-color: rgb(255, 255, 255);
+	background-color: rgb(255, 193, 7);
+	text-align: left;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
 }
 
 #listed-2 > .list-unstyled.mt-4.mb-5 > li > svg {
-	background-color: rgb(15, 152, 174);
+	background-color: rgb(255, 176, 5);
 	color: rgb(248, 249, 250);
 	border-top-right-radius: 50%;
 	border-bottom-right-radius: 50%;
 	border-bottom-left-radius: 50%;
-	height: 30px;
-	width: 30px;
+	height: 60px;
+	width: 60px;
 	border-top-left-radius: 50%;
 	margin-right: 15px;
 }
@@ -1405,10 +1405,13 @@
 
 #box_fitur_8 > .container > .row > .col > h4 {
 	color: rgb(248, 249, 250);
+	float: left;
 }
 
 #box_fitur_8 > .container > .row > .col > p {
 	color: rgb(248, 249, 250);
+	float: left;
+	text-align: left;
 }
 
 #box_fitur_8 > .container > .row > .col-3 > svg {
@@ -1431,6 +1434,7 @@
 	padding-right: 25px;
 	padding-left: 25px;
 	color: rgb(248, 249, 250);
+	text-align: left;
 }
 
 #box_fitur_8 > .list-unstyled.mt-4.mb-5 > li > svg {
@@ -2442,7 +2446,7 @@
 }
 
 .footer > .container > .row.justify-content-between.align-items-center > .col-lg-6.col-sm-12 > .footer-widget {
-	margin-top: 0px;
+	margin-top: -170px;
 }
 
 #chapter-10 > .py-4 > .container > .row > .col-lg-8 > .container > .row > div > nav > .pagination.pagination-sm.justify-content-end > .page-item.active > .page-link {
@@ -2713,153 +2717,299 @@ div > .py-4 > .py-4 > .container > .row > .col-lg-12 > .markdown-content.w-full.
 	font-family: Alata;
 }
 
-#header-brain-works {
-	background-image: url("/public/media/background.jpg");
-	height: auto;
+#ebook-brain-works-v2 {
+	background-image: url("/public/media/pexels-artempodrez-7232841.jpg");
+	padding-top: 0px;
 }
 
-#header-brain-works > .container > .row.justify-content-between > .col-lg-7.col-md-8 > .main-banner {
-	height: auto;
-	padding-bottom: 0px;
-	padding-top: 80px;
-}
-
-#header-brain-works > .container > .row.justify-content-between > .col-lg-5.d-none.d-lg-block {
-	height: auto;
-}
-
-#header-brain-works > .container > .row.justify-content-between > .col-lg-7.col-md-8 > .main-banner > .mb-3.mt-2 {
-	color: rgb(248, 249, 250);
-	font-family: Alata;
-}
-
-#header-brain-works > .container > .row.justify-content-between > .col-lg-7.col-md-8 > .main-banner > .mb-4 {
-	color: rgb(248, 249, 250);
-}
-
-#header-brain-works > .container > .row.justify-content-between > .col-lg-7.col-md-8 > .main-banner > .text-color.font-weight-bold {
-	color: rgb(248, 249, 250);
-}
-
-#header-brain-works > .container > .row.justify-content-between > .col-lg-7.col-md-8 > .main-banner > .btn.btn-main.mt-2 {
-	color: rgb(52, 58, 64);
+#ebook-brain-works-v2 > .py-4 > .container > .row > .col-lg-6 {
 	background-color: rgb(255, 193, 7);
-}
-
-#header-brain-works > .container > .row.justify-content-between > .col-lg-7.col-md-8 > .main-banner > .py-4 > .container > .row {
-	margin-left: 0px;
-	margin-right: 0px;
-	padding-left: 0px;
-	padding-bottom: 0px;
-}
-
-#boxed-5 {
-	padding-left: 0px;
-}
-
-#boxed-5 > .py-4 > .container > .row {
-	padding-left: 0px;
-}
-
-#header-brain-works > .container > .row.justify-content-between > .col-lg-7.col-md-8 > .main-banner > .py-4 > .container {
-	padding-left: 0px;
-}
-
-#header-brain-works > .container > .row.justify-content-between {
-	padding-bottom: 40px;
-	padding-top: 25px;
-	height: auto;
-}
-
-#service-1 {
-	padding-top: 20px;
-	padding-bottom: 20px;
-	background-color: rgb(229, 237, 250);
-}
-
-#service-1 > h3 {
-	text-align: center;
-}
-
-#service-1 > .container > .row.align-items-center > .col-lg-4.col-md-6.col-sm-6 > .service-block.mb-4.mb-lg-0 > h4 {
-	margin-top: 10px;
-}
-
-#ebook-detail-brain-work {
-	background-color: rgb(255, 255, 255);
-	padding-bottom: 0px;
+	color: rgb(248, 249, 250);
+	padding-right: 50px;
+	padding-left: 50px;
 	padding-top: 40px;
-	height: auto;
+	padding-bottom: 20px;
 }
 
-#ebook-detail-brain-work > .container > .row {
-	background-color: rgb(255, 255, 255);
-	padding-bottom: 0px;
-}
-
-#ebook-detail-brain-work > .container > .row > .col-lg-5 > .contact-info-block.text-center.mb-4 {
-	padding-bottom: 0px;
+#ebook-brain-works-form {
+	background-color: rgb(23, 162, 184);
 	padding-right: 0px;
 	padding-left: 0px;
 }
 
-#ebook-detail-brain-work > .container > .row > .col-lg-5 {
+#ebook-brain-works-form > .py-4 > .container > .row {
 	padding-right: 0px;
 	padding-left: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
 }
 
-#ebook-detail-brain-work > .container > .row > .col-lg-5 > .contact-info-block.text-center.mb-4 > .mw-100.align-center {
-	width: auto;
+#ebook-brain-works-form > .py-4 > .container > .row > .col-lg-12 {
+	background-color: rgb(248, 249, 250);
 }
 
-#header-ebook-test {
-	background-image: url("/public/media/pexels-zamiir-3308588.jpg");
-}
-
-#header-ebook-test > .container > .row.justify-content-between > .col-lg-7.col-md-8 > .main-banner > .mb-3.mt-2 {
-	color: rgb(248, 249, 250);
-	font-family: Allerta;
-}
-
-#header-ebook-test > .container > .row.justify-content-between > .col-lg-7.col-md-8 > .main-banner > .mb-4 {
-	color: rgb(248, 249, 250);
-}
-
-#header-ebook-test > .container > .row.justify-content-between > .col-lg-7.col-md-8 > .main-banner > .text-color.font-weight-bold {
-	color: rgb(248, 249, 250);
-}
-
-.header-7 > .container > .row.justify-content-between > .col-lg-7.col-md-8 > .main-banner > .mb-3.mt-2 {
-	color: rgb(248, 249, 250);
+#ebook-brain-works-form > .py-4 > .container > .row > .col-lg-12 > h1 {
+	font-size: 44px;
 	font-family: Alata;
-	line-height: 70px;
+}
+
+#listed-1 > .list-unstyled > li {
+	color: rgb(248, 249, 250);
+}
+
+#right {
+	background-color: rgb(0, 123, 255);
+}
+
+#left {
+	background-color: rgb(248, 249, 250);
+}
+
+#ebook-brain-works-v2 > .py-4 > .container > .row > .col-lg-6 > .py-4 > .container > .row {
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
+.py-4 > .overlay {
+	background-color: rgb(253, 126, 20);
+}
+
+#ebook-brain-works-v2 > .py-4 > .overlay {
+	background-color: rgb(220, 53, 69);
+	opacity: 0.8;
+}
+
+#ebook-brain-works-v2 > .py-4 > .container > .row > .col-lg-6 > section > .container > .row {
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+#ebook-brain-works-v2 > .py-4 > .container > .row > .col-lg-6 > section > .container > .row > .col-lg-12 {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+#ebook-brain-works-v2 > .py-4 > .container > .row > .col-lg-6 > section > .container {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+#ebook-brain-works-v2 > .py-4 > .container > .row > .col-lg-6 > div > form > .row.mt-4 > .col > .btn.btn-primary {
+	background-color: rgb(253, 126, 20);
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+	border-bottom-right-radius: 12px;
+	border-bottom-left-radius: 12px;
 	text-align: left;
 }
 
-.header-7 > .container > .row.justify-content-between > .col-lg-7.col-md-8 > .main-banner > .mb-4 {
-	color: rgb(248, 249, 250);
+#ebook-brain-works-v2 > .py-4 > .container > .row > .col-lg-6 > div > form > .row.mt-4 > .col {
+	text-align: left;
 }
 
-.header-7 > .container > .row.justify-content-between > .col-lg-7.col-md-8 > .main-banner > .btn.btn-main.mt-2 {
-	background-color: rgb(255, 193, 7);
-	color: rgb(0, 0, 0);
-}
-
-.header-7 > .container > .row.justify-content-between > .col-lg-7.col-md-8 > .main-banner > .text-color.font-weight-bold {
-	color: rgb(248, 249, 250);
-}
-
-.header-7 > .container > .row.justify-content-between > .col-lg-7.col-md-8 > .main-banner {
-	padding-bottom: 0px;
-}
-
-#site-content > .container > .row > .col-lg-12 > .text-lg.mb-4 {
+#ebook-brain-works-v2 > .py-4 > .container > .row > .col-lg-6 > h1 {
+	font-size: 48px;
+	color: rgb(94, 47, 8);
+	text-align: left;
 	font-family: Alata;
-	line-height: 57px;
 }
 
-#site-content > .container {
+#ebook-brain-works-v2 > .py-4 > .container > .row > .col-lg-6 > section > .container > .row > .col-lg-12 > h1 {
+	font-size: 48px;
+	float: left;
+	text-align: left;
+	color: rgb(93, 44, 4);
+	font-family: Alata;
+}
+
+#ebook-brain-works-v2 > .py-4 > .container > .row > .col-lg-6 > section > .container > .row > p {
+	color: rgb(106, 51, 6);
+	float: none;
+	text-align: left;
+}
+
+#ebook-brain-works-v2 > .py-4 > .container > .row > .col-lg-6 > div > form > .row.mt-4 {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+#leftet {
+	background-color: rgb(248, 249, 250);
+}
+
+#ebook-brain-works-v2 > .py-4 > .container > .row > .col-lg-6.left {
+	background-color: rgb(255, 193, 7);
+}
+
+#ebook-brain-works-v2 > .py-4 > .container > .row > .col-lg-6.right {
+	background-color: rgb(248, 249, 250);
+}
+
+#ebook-brain-works-v2 > .py-4 > .container > .row > .col-lg-6.right > section > .container > .row > .col-lg-12 > h1 {
+	margin-bottom: 25px;
+	letter-spacing: 1px;
+	line-height: 58px;
+}
+
+#detail-3-list > span {
+	color: rgb(52, 58, 64);
+}
+
+#ebook-brain-works-v2 > .py-4 > .container > .row > .col-lg-6.left > .py-4 > .container > .row > .col-lg-12 > .row > .col-lg-4 > div {
+	width: 60px;
+	height: 60px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-color: rgb(253, 126, 20);
+	border-right-color: rgb(253, 126, 20);
+	border-bottom-color: rgb(253, 126, 20);
+	border-left-color: rgb(253, 126, 20);
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+	border-bottom-right-radius: 50%;
+	border-bottom-left-radius: 50%;
+	font-size: 31px;
+	font-weight: 700;
+	font-family: Acme;
+	background-color: rgb(253, 126, 20);
+}
+
+#ebook-brain-works-v2 > .py-4 > .container > .row > .col-lg-6.left > .py-4 > .container > .row > .col-lg-12 > .row > .col-lg-3 > div {
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+}
+
+#ebook-brain-works-v2 > .py-4 > .container > .row > .col-lg-6.left > .py-4 > .container > .row > .col-lg-12 > .row.list-4 > .col-lg-3 > div {
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+	border-bottom-right-radius: 50%;
+	border-bottom-left-radius: 50%;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-color: rgb(253, 126, 20);
+	border-right-color: rgb(253, 126, 20);
+	border-bottom-color: rgb(253, 126, 20);
+	border-left-color: rgb(253, 126, 20);
+	width: 60px;
+	height: 60px;
+	background-color: rgb(253, 126, 20);
+	font-size: 26px;
+	padding-top: 13px;
+	font-weight: 700;
+	font-family: Aleo;
+}
+
+#ebook-brain-works-v2 > .py-4 > .container > .row > .col-lg-6.left > .py-4 > .container > .row > .col-lg-12 > .row.list-4 > .col-lg-9 > p {
+	text-align: left;
+	color: rgb(94, 47, 8);
+	font-weight: 400;
+	font-family: Alata;
+	font-size: 17px;
+	margin-bottom: 0px;
+}
+
+#ebook-brain-works-v2 > .py-4 > .container > .row > .col-lg-6.left > .py-4 > .container > .row > .col-lg-12 > .row.list-4 {
+	background-color: rgb(255, 193, 7);
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 10px;
+}
+
+#ebook-brain-works-v2 > .py-4 > .container > .row > .col-lg-6.left > .py-4 > .container > .row > .col-lg-12 > .row.list-4 > .col-lg-3 {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+#ebook-brain-works-v2 > .py-4 > .container > .row > .col-lg-6.left > h1 {
+	font-size: 48px;
+}
+
+#ebook-brain-works-v2 > .py-4 > .container > .row > .col-lg-6.left > h3 {
+	font-family: Alata;
+	color: rgb(220, 53, 69);
+	text-align: left;
+	font-size: 26px;
 	margin-top: 20px;
+}
+
+#ebook-brain-works-v2 > .py-4 > .container > .row > .col-lg-6.left > h1 > h3 {
+	margin-top: 20px;
+}
+
+#ebook-brain-works-v2 > .py-4 > .container > .row > .col-lg-6.left > .py-4 > .container > .row > .col-lg-12 > .row.list-4 > .col-lg-9 > p > p {
+	font-weight: 300;
+}
+
+#ebook-brain-works-v2 > .container {
+	text-align: center;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+#ebook-brain-works-v2 > .container > .mw-100.align-center {
+	width: 270px;
+}
+
+#ebook-brain-works-v2 > .py-4 > .container > .row > .col-lg-6.left > .py-4 > .container > .row > .col-lg-12 > .row.list-4 > .col-lg-9 > p > h1 {
+	font-size: 19px;
+	font-family: Alata;
+}
+
+#ebook-brain-works-v2 > .py-4 > .container > .row > .col-lg-6.left > .py-4 > .container > .row > .col-lg-12 > .row.list-4 > .col-lg-9 > h1 {
+	font-size: 19px;
+	text-align: left;
+	font-family: Alata;
+	color: rgb(122, 58, 5);
+	margin-bottom: 0px;
+	line-height: 25px;
+}
+
+#ebook-brain-works-v2 > .py-4 > .container > .row > .col-lg-6.left > .py-4 > .container > .row > .col-lg-12 > .row.list-4 > .col-lg-9 > h1 > p {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+#ebook-brain-works-v2 > .py-4 > .container > .row > .col-lg-6.right > p {
+	color: rgb(94, 47, 8);
+	text-align: left;
+}
+
+#ebook-brain-works-v2 > .py-4 > .container > .mw-100.align-center {
+	width: 270px;
+	margin-bottom: 30px;
+}
+
+.hero-2.py-7 > .py-4 > .container > .row > .col-lg-6.left {
+	background-color: #ffc107;
+}
+
+#ebook-brain-works-v2 > .py-4 {
+	height: auto;
 }
 
 @media screen and (max-width: 320px){
