@@ -2707,11 +2707,11 @@ Vvveb.Gui = {
 Vvveb.StyleManager = {
 
 	styles: {},
-	cssContainer: false,
+	cssContainer: true,
 	mobileWidth: '320px',
 	tabletWidth: '768px',
 	doc: false,
-	inlineCSS: false,
+	inlineCSS: true,
 	currentElement: null,
 	currentSelector: null,
 	state: "",//hover, active etc
@@ -2735,15 +2735,15 @@ Vvveb.StyleManager = {
 			document.getElementById("vvvebjs-styles-css")?.remove();
 
 			//if style element does not exist create it			
-			if (!style) {
-				style = generateElements('<style id="vvvebjs-styles"></style>')[0];
-				doc.head.append(style);
-				return this.cssContainer = style;
-			}
+			//if (!style) {
+			//	style = generateElements('<style id="vvvebjs-styles"></style>')[0];
+			//	doc.head.append(style);
+			//	return this.cssContainer = style;
+			//}
 
 			//if it exists
-			this.cssContainer = style;
-			this.loadCss();
+			//this.cssContainer = style;
+			//this.loadCss();
 
 			return this.cssContainer;
 		}
