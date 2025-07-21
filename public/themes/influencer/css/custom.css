@@ -1,4 +1,30 @@
+#top-header > .section.page-banner-area.bg-grey {
+	background-color: rgb(220, 53, 69);
+}
+
 #mainmenu-area > .navbar.navbar-expand-lg.navbar-light {
-	background-color: #fd7e14;
+	background-color: rgb(245, 61, 80);
+	margin-top: -10px;
+}
+
+#navbar > .navbar-nav.ms-auto > .nav-item > .nav-link > span {
+	color: rgb(248, 249, 250);
+}
+
+#mainmenu-area > .navbar.navbar-expand-lg.navbar-light > .container.align-items-center > .navbar-brand > .mb-0 {
+	color: rgb(248, 249, 250);
+}
+
+#navbar > .btn.btn-border-tp.btn-small.ml-3 {
+	background-color: rgb(220, 53, 69);
+	color: rgb(248, 249, 250);
+	border-top-color: rgb(136, 12, 24);
+	border-right-color: rgb(136, 12, 24);
+	border-bottom-color: rgb(136, 12, 24);
+	border-left-color: rgb(136, 12, 24);
+}
+
+#mainmenu-area > .navbar.navbar-expand-lg.navbar-light > .container.align-items-center > .navbar-brand > .mb-0 > font {
+	color: #51060e;
 }
 

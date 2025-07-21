@@ -1,1 +1,1 @@
-#!"C:/Program Files/Ampps/perl/bin/perl.exe"
+#!"/Applications/AMPPS/apps/perl/bin/perl"

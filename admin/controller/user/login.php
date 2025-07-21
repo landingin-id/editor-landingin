@@ -54,7 +54,7 @@ class Login {
 		$admin_path = \Vvveb\adminPath();
 
 		if ($admin) {
-			return $this->redirect($admin_path);
+			return $this->redirect($this->request->post['redir']);
 		}
 
 		$this->view->adminPath = $admin_path;

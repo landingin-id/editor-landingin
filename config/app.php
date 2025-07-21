@@ -18,6 +18,6 @@
     array (
     ),
   ),
-  'cronkey' => 'MoCqmoz7wmKs8rm0jIL3PUiKpWUudp6z',
-  'key' => 'rTRwWNSIQoe7wofHJKqDniWp4hV5oIsS',
+  'cronkey' => 'hUtH7YAm73R8zTlsixZ6bH9oGaxV5rkx',
+  'key' => '6FOqWnuP2fIOGUlzKxP0SXCpQBXgFur4',
 );
