@@ -13475,7 +13475,7 @@ body ::-webkit-scrollbar-thumb {
   flex-wrap: nowrap;
 }
 #vvveb-builder #left-panel #filemanager {
-  display: flex;
+  display: none;
   flex-direction: column;
   width: 30vw;
   width: calc(var(--builder-left-panel-width));
@@ -13572,9 +13572,10 @@ body ::-webkit-scrollbar-thumb {
   color: var(--bs-link-hover-color);
 }
 #vvveb-builder #top-panel {
+  background: #fff;
+  border-bottom: 1px solid #a6aac5;
   height: 35px;
   padding: 0;
-  border-bottom: 1px solid #b0bcc7;
   text-align: center;
   display: flex;
   justify-content: space-between;
@@ -14012,7 +14013,7 @@ html[data-bs-theme="dark"] #vvveb-builder #top-panel img {
 #vvveb-builder #canvas #iframe-wrapper,
 #vvveb-builder #canvas iframe,
 #vvveb-builder #canvas iframe body {
-  width: 100%;
+  width: 101%;
   height: 100%;
   border: none;
 }
