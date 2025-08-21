@@ -1,40 +1,37 @@
 Vvveb.Blocks.add("base/1-column", {
     name: "1 column",
     image: Vvveb.themeBaseUrl + "/screenshots/base/1-column-thumb.jpeg",
-    html: `<section title="one column" class="py-4">
+    html: `
   <div class="container">
     <div class="row">
       <div class="col-lg-12"></div>
     </div>
-  </div>
-</section>`
+  </div>`
 });Vvveb.Blocks.add("base/2-column", {
     name: "2 column",
     image: Vvveb.themeBaseUrl + "/screenshots/base/2-column-thumb.jpeg",
-    html: `<section title="two columns" class="py-4">
+    html: `
   <div class="container">
     <div class="row">
       <div class="col-lg-6"></div>
       <div class="col-lg-6"></div>
     </div>
-  </div>
-</section>`
+  </div>`
 });Vvveb.Blocks.add("base/3-column", {
     name: "3 column",
     image: Vvveb.themeBaseUrl + "/screenshots/base/3-column-thumb.jpeg",
-    html: `<section title="three columns" class="py-4">
+    html: `
   <div class="container">
     <div class="row">
       <div class="col-lg-4"></div>
       <div class="col-lg-4"></div>
       <div class="col-lg-4"></div>
     </div>
-  </div>
-</section>`
+  </div>`
 });Vvveb.Blocks.add("base/4-column", {
     name: "4 column",
     image: Vvveb.themeBaseUrl + "/screenshots/base/4-column-thumb.jpeg",
-    html: `<section title="four columns" class="py-4">
+    html: `
   <div class="container">
     <div class="row">
       <div class="col-lg-3"></div>
@@ -42,12 +39,11 @@ Vvveb.Blocks.add("base/1-column", {
       <div class="col-lg-3"></div>
       <div class="col-lg-3"></div>
     </div>
-  </div>
-</section>`
+  </div>`
 });Vvveb.Blocks.add("base/6-column", {
     name: "6 column",
     image: Vvveb.themeBaseUrl + "/screenshots/base/6-column-thumb.jpeg",
-    html: `<section title="six columns" class="py-4">
+    html: `
   <div class="container">
     <div class="row">
       <div class="col-lg-2"></div>
@@ -57,10 +53,14 @@ Vvveb.Blocks.add("base/1-column", {
       <div class="col-lg-2"></div>
       <div class="col-lg-2"></div>
     </div>
-  </div>
-</section>`
+  </div>`
+});Vvveb.Blocks.add("base/container", {
+    name: "Container",
+    image: Vvveb.themeBaseUrl + "/screenshots/base/container-thumb.jpeg",
+    html: `
+  <div class="container" style="min-height:150px;"></div>`
 });
-	Vvveb.BlocksGroup['Base'] = ["base/1-column","base/2-column","base/3-column","base/4-column","base/6-column"];
+	Vvveb.BlocksGroup['Base'] = ["base/1-column","base/2-column","base/3-column","base/4-column","base/6-column","base/container"];
 Vvveb.Blocks.add("boxed/boxed-1", {
     name: "Boxed 1",
     image: Vvveb.themeBaseUrl + "/screenshots/boxed/boxed-1-thumb.jpeg",
@@ -464,5 +464,3 @@ Vvveb.Blocks.add("listed/listed-1", {
 </div>`
 });
 	Vvveb.BlocksGroup['Listed'] = ["listed/listed-1","listed/listed-2","listed/listed-3","listed/listed-4"];
-
-	Vvveb.BlocksGroup['Reusable'] = [""];

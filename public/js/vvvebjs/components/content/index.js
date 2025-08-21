@@ -25,22 +25,22 @@ import { recentPostsComponent } from './recentPosts.js';
 import { tagsComponent } from './tags.js';
 
 
-Vvveb.Components.add("content/posts", postsComponent);
-Vvveb.Components.add("content/categories", categoriesComponent);
-Vvveb.Components.add("content/archives", archivesComponent);
-Vvveb.Components.add("content/recentPosts", recentPostsComponent);
+//Vvveb.Components.add("content/posts", postsComponent);
+//Vvveb.Components.add("content/categories", categoriesComponent);
+//Vvveb.Components.add("content/archives", archivesComponent);
+//Vvveb.Components.add("content/recentPosts", recentPostsComponent);
 //Vvveb.Components.add("content/recentComments", recentCommentsComponent);
-Vvveb.Components.add("content/tags", tagsComponent);
+//Vvveb.Components.add("content/tags", tagsComponent);
 
 
 Vvveb.ComponentsGroup['Content'] = [
-	"content/posts",
-	"content/categories",
-	"content/archives",
-	"content/recentPosts",
+	//"content/posts",
+	//"content/categories",
+	//"content/archives",
+	//"content/recentPosts",
 	//	"content/recentComments",
 	//	"content/calendar",
-	"content/tags",
+	//"content/tags",
 	//"content/user",
 	//"content/language",
 	//"content/currency",

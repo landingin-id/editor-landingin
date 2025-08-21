@@ -21,12 +21,12 @@
 Vvveb.ComponentsGroup['Elements'] = [
 	/*sections */
 	//"elements/font-icon",
-	"elements/carousel",
-	"elements/gallery",
-	"elements/slider",
+	//"elements/carousel",
+	//"elements/gallery",
+	//"elements/slider",
 	//"elements/logo",
 	//"elements/tabs",
-	"elements/accordion",
+	//"elements/accordion",
 	//"elements/flip-box",
 	//"elements/counter",
 	"elements/svg-icon",

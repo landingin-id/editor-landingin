@@ -78,7 +78,7 @@ Vvveb.Components.extend("_base", "embeds/embed", {
 	}]
 });
 
-for (const provider of ["youtube", "vimeo", "dailymotion", "flickr", "smugmug", "scribd", "twitter", "soundcloud", "slideshare", "spotify", "imgur", "issuu", "mixcloud", "ted", "animoto", "tumblr", "kickstarter", "reverbnation", "reddit", "speakerdeck", "screencast", "amazon", "someecards", "tiktok", "pinterest", "wolfram", "anghami"]) {
+for (const provider of []) {
 	Vvveb.Components.add("embeds/" + provider, {
 		name: provider,
 		image: "icons/code.png",

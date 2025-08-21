@@ -16,8 +16,8 @@ npm run gulp screenshots -hero -features
 
 const gulp = require('gulp');
 const fileinclude = require('gulp-file-include');
-//const sass = require('gulp-sass')(require('sass'));
-const sass = require('gulp-sass')(require('node-sass'));
+const sass = require('gulp-sass')(require('sass'));
+//const sass = require('gulp-sass')(require('node-sass'));
 const sassGlob = require('gulp-sass-glob');
 const formatHtml = require('gulp-format-html');
 //const gutil = require('gulp-util');
