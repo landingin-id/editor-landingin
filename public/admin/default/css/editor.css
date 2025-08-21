@@ -14146,7 +14146,6 @@ body {
     position: fixed;
     border-top: 1px solid var(--bs-border-color);
     left: 15vw;
-    left: calc($builder-left-panel-width +  $builder-canvas-margin);
     left: calc( var(--builder-left-panel-width) + var(--builder-canvas-margin));
     right: 15vw;
     right: var(--builder-right-panel-width);
@@ -15744,3 +15743,23 @@ label.form-check .form-check-input {
 
 .modal-full .modal-dialog.modal-xl.modal-dialog-scrollable .modal-content {
   min-height: 50%; }
+
+/* Hide scrollbar for ol elements */
+ol {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+ol::-webkit-scrollbar {
+  display: none; /* WebKit */
+}
+
+/* Hide scrollbar on sections-list clearfix */
+.sections-list.clearfix {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+}
+
+.sections-list.clearfix::-webkit-scrollbar {
+  display: none; /* WebKit */
+}
