@@ -126,44 +126,19 @@ Vvveb.Sections.add("sections-about/about-1", {
 });Vvveb.Sections.add("sections-about/about-4", {
     name: "About 4",
     image: Vvveb.themeBaseUrl + "/screenshots/sections-about/about-4-thumb.jpeg",
-    html: `<div class="section" id="about-4">
-    
-      
-    
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="section-heading book-info mt-5 mt-lg-0" id="listed-1">
-              <h2 class="text-lg mb-4">Materi yang ada di ebook</h2>
-              <p class="text-start">
+    html: `<div class="container-fluid" style="min-height: 150px; background-image: url(&quot;/public/media/pexels-ahmet-enes-tek-2154596175-33429085.jpg&quot;); background-size: cover; padding: 50px;"><div class="container">
+    <div class="row">
+      <div class="col-lg-6"><h2 class="text-lg mb-4" style="color: rgb(248, 249, 250); font-family: Allerta; font-size: 48px;">Materi yang ada di ebook</h2><p class="text-start" style="color: rgb(248, 249, 250);">
  Di dunia yang semakin digital, strategi pemasaran yang tepat
  adalah kunci untuk menonjol. Kami di [Nama Perusahaan] siap
  membantu Anda menjangkau audiens yang lebih luas dan
  meningkatkan penjualan dengan solusi digital yang inovatif. isi
- dari ebook ini terkait tentang : </p>
-
-              <ul class="list-unstyled mt-4 mb-5">
-                <li>
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="64" fill="#007bff"><defs><style>.eva-11{fill:#fff;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="color-palette"><g id="color-palette-2" data-name="color-palette"><rect class="eva-11"></rect><path class="eva-12" d="M19.54,5.08A10.61,10.61,0,0,0,11.91,2h0a10,10,0,0,0-.05,20h0a2.58,2.58,0,0,0,2.53-1.89,2.52,2.52,0,0,0-.57-2.28.5.5,0,0,1,.37-.83h1.65A6.15,6.15,0,0,0,22,11.33,8.48,8.48,0,0,0,19.54,5.08ZM15.88,15H14.23a2.49,2.49,0,0,0-1.87,4.15.49.49,0,0,1,.12.49c-.05.21-.28.34-.59.36a8,8,0,0,1-7.82-9.11A8.1,8.1,0,0,1,11.92,4H12a8.47,8.47,0,0,1,6.1,2.48A6.5,6.5,0,0,1,20,11.25,4.17,4.17,0,0,1,15.88,15Z"></path><circle class="eva-12" cx="12" cy="6.5" r="1.5"></circle><path class="eva-12" d="M15.25,7.2a1.5,1.5,0,1,0,2.05.55A1.5,1.5,0,0,0,15.25,7.2Z"></path><path class="eva-12" d="M8.75,7.2A1.5,1.5,0,1,0,9.3,9.25,1.5,1.5,0,0,0,8.75,7.2Z"></path><path class="eva-12" d="M6.16,11.26a1.5,1.5,0,1,0,2.08.4A1.49,1.49,0,0,0,6.16,11.26Z"></path></g></g></g></svg>&nbsp;<span style="font-weight: bold;">Point Pertama</span> - Dasar Digital Marketing</li><li>
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="64" fill="#007bff"><defs><style>.eva-11{fill:#fff;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="alert-circle"><g id="alert-circle-2" data-name="alert-circle"><rect class="eva-11"></rect><path class="eva-12" d="M12,2A10,10,0,1,0,22,12,10,10,0,0,0,12,2Zm0,18a8,8,0,1,1,8-8A8,8,0,0,1,12,20Z"></path><circle class="eva-12" cx="12" cy="16" r="1"></circle><path class="eva-12" d="M12,7a1,1,0,0,0-1,1v5a1,1,0,0,0,2,0V8A1,1,0,0,0,12,7Z"></path></g></g></g></svg>&nbsp;Point Kedua - Fundamental Digital Marketing</li>
-                
-                
-                
-              </ul>
-
-              
-            </div>
-          </div><div class="col-lg-5">
-            
-          </div>
-
-          
-        </div>
-      </div>
-    
-
-    
-</div>`
+ dari ebook ini terkait tentang : </p><li style="background-color: rgb(45, 42, 42); color: rgb(248, 249, 250); text-decoration-line: none; text-align: left; padding-left: 20px;" class="">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="64" fill="#ffc107" style=""><defs><style>.eva-11{fill:#fff;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="color-palette"><g id="color-palette-2" data-name="color-palette"><rect class="eva-11"></rect><path class="eva-12" d="M19.54,5.08A10.61,10.61,0,0,0,11.91,2h0a10,10,0,0,0-.05,20h0a2.58,2.58,0,0,0,2.53-1.89,2.52,2.52,0,0,0-.57-2.28.5.5,0,0,1,.37-.83h1.65A6.15,6.15,0,0,0,22,11.33,8.48,8.48,0,0,0,19.54,5.08ZM15.88,15H14.23a2.49,2.49,0,0,0-1.87,4.15.49.49,0,0,1,.12.49c-.05.21-.28.34-.59.36a8,8,0,0,1-7.82-9.11A8.1,8.1,0,0,1,11.92,4H12a8.47,8.47,0,0,1,6.1,2.48A6.5,6.5,0,0,1,20,11.25,4.17,4.17,0,0,1,15.88,15Z"></path><circle class="eva-12" cx="12" cy="6.5" r="1.5"></circle><path class="eva-12" d="M15.25,7.2a1.5,1.5,0,1,0,2.05.55A1.5,1.5,0,0,0,15.25,7.2Z"></path><path class="eva-12" d="M8.75,7.2A1.5,1.5,0,1,0,9.3,9.25,1.5,1.5,0,0,0,8.75,7.2Z"></path><path class="eva-12" d="M6.16,11.26a1.5,1.5,0,1,0,2.08.4A1.49,1.49,0,0,0,6.16,11.26Z"></path></g></g></g></svg>&nbsp;Point Pertama - Dasar Digital Marketing</li><li style="background-color: rgb(45, 42, 41); color: rgb(248, 249, 250); padding-left: 20px;" class="">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="64" fill="#ffc107" style=""><defs><style>.eva-11{fill:#fff;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="alert-circle"><g id="alert-circle-2" data-name="alert-circle"><rect class="eva-11"></rect><path class="eva-12" d="M12,2A10,10,0,1,0,22,12,10,10,0,0,0,12,2Zm0,18a8,8,0,1,1,8-8A8,8,0,0,1,12,20Z"></path><circle class="eva-12" cx="12" cy="16" r="1"></circle><path class="eva-12" d="M12,7a1,1,0,0,0-1,1v5a1,1,0,0,0,2,0V8A1,1,0,0,0,12,7Z"></path></g></g></g></svg>&nbsp;Point Kedua - Fundamental Digital&nbsp;</li></div>
+      <div class="col-lg-6"></div>
+    </div>
+  </div></div>`
 });
 	Vvveb.SectionsGroup["Sections about"] = ["sections-about/about-1","sections-about/about-2","sections-about/about-3","sections-about/about-4"];
 Vvveb.Sections.add("sections-content-list/list-1", {
@@ -249,111 +224,17 @@ Vvveb.Sections.add("sections-content-list/list-1", {
         </div>
       </div>
     </div>`
-});Vvveb.Sections.add("sections-content-list/list-3", {
-    name: "List 3",
-    image: Vvveb.themeBaseUrl + "/screenshots/sections-content-list/list-3-thumb.jpeg",
-    html: `<div class="section cta-home" id="chapter-3">
-      
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-8">
-            <div class="text-center">
-              <blockquote class="blockquote">
-                
-                
-              </blockquote>
-            </div>
-          <div class="card p-3 d-flex" id="box_fitur_4">
-    <div class="row">
-        <div class="col-2">
-            <div style="margin-top:10px;margin-left:10px" class="oval_box_fitur oval_1"><br><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="35" height="35" fill="#f8f9fa"><defs><style>.eva-11{fill:none;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="archive"><g id="archive-2" data-name="archive"><rect class="eva-11" transform="translate(24 0) rotate(90)"></rect><path class="eva-12" d="M21,6a3,3,0,0,0-3-3H6A3,3,0,0,0,4,8.22V18a3,3,0,0,0,3,3H17a3,3,0,0,0,3-3V8.22A3,3,0,0,0,21,6ZM6,5H18a1,1,0,0,1,0,2H6A1,1,0,0,1,6,5ZM18,18a1,1,0,0,1-1,1H7a1,1,0,0,1-1-1V9H18Z"></path><rect class="eva-12" x="9" y="12" rx="0.87" ry="0.87"></rect></g></g></g></svg></div>
-        </div>
-        <div class="col">
-            <div>
-                <h4 class="title_fitur_1" style="text-align: left;">Benefit yang kamu dapat ketika beli produk ini</h4>
-                <p class="desc_fitur_2">Catat point dibawah ini ya</p>
-            </div>
-        </div>
-    </div>
-</div></div>
-        </div>
-      </div>
-    <section title="two columns" class="py-4">
-  <div class="container">
-    <div class="row">
-      <div class="col"><div id="listed-3" class="section-heading book-info mt-5 mt-lg-0">
-    <ul class="list-unstyled mt-4 mb-5">
-        <li >
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="64" fill="#f8f9fa" color="#f8f9fa" ><defs><style>.eva-11{fill:#fff;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="checkmark"><g id="checkmark-2" data-name="checkmark"><rect class="eva-11"></rect><path class="eva-12" d="M9.86,18a1,1,0,0,1-.73-.32L4.27,12.51a1,1,0,1,1,1.46-1.37l4.12,4.39,8.41-9.2a1,1,0,1,1,1.48,1.34l-9.14,10a1,1,0,0,1-.73.33Z"></path></g></g></g></svg>&nbsp;Point Pertama - Dasar Digital Marketing</li><li >
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="64" fill="#f8f9fa" ><defs><style>.eva-11{fill:#fff;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="checkmark"><g id="checkmark-2" data-name="checkmark"><rect class="eva-11"></rect><path class="eva-12" d="M9.86,18a1,1,0,0,1-.73-.32L4.27,12.51a1,1,0,1,1,1.46-1.37l4.12,4.39,8.41-9.2a1,1,0,1,1,1.48,1.34l-9.14,10a1,1,0,0,1-.73.33Z"></path></g></g></g></svg>&nbsp;Point Kedua - Fundamental Digital Marketing</li><li >
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="64" fill="#f8f9fa" ><defs><style>.eva-11{fill:#fff;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="checkmark"><g id="checkmark-2" data-name="checkmark"><rect class="eva-11"></rect><path class="eva-12" d="M9.86,18a1,1,0,0,1-.73-.32L4.27,12.51a1,1,0,1,1,1.46-1.37l4.12,4.39,8.41-9.2a1,1,0,1,1,1.48,1.34l-9.14,10a1,1,0,0,1-.73.33Z"></path></g></g></g></svg>&nbsp;Point Ketiga - Studi Kasus Digital Marketing</li><li >
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="64" fill="#f8f9fa" ><defs><style>.eva-11{fill:#fff;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="checkmark"><g id="checkmark-2" data-name="checkmark"><rect class="eva-11"></rect><path class="eva-12" d="M9.86,18a1,1,0,0,1-.73-.32L4.27,12.51a1,1,0,1,1,1.46-1.37l4.12,4.39,8.41-9.2a1,1,0,1,1,1.48,1.34l-9.14,10a1,1,0,0,1-.73.33Z"></path></g></g></g></svg>&nbsp;Point Ketiga - Studi Kasus Digital Marketing</li><li >
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="64" fill="#f8f9fa" ><defs><style>.eva-11{fill:#fff;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="checkmark"><g id="checkmark-2" data-name="checkmark"><rect class="eva-11"></rect><path class="eva-12" d="M9.86,18a1,1,0,0,1-.73-.32L4.27,12.51a1,1,0,1,1,1.46-1.37l4.12,4.39,8.41-9.2a1,1,0,1,1,1.48,1.34l-9.14,10a1,1,0,0,1-.73.33Z"></path></g></g></g></svg>&nbsp;Point Ketiga - Studi Kasus Digital Marketing</li><i class="la la-star la-2x"></i>
-    </ul>
-</div></div><div class="col"><div id="listed-3" class="section-heading book-info mt-5 mt-lg-0">
-    <ul class="list-unstyled mt-4 mb-5">
-        <li >
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="64" fill="#f8f9fa" color="#f8f9fa" ><defs><style>.eva-11{fill:#fff;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="checkmark"><g id="checkmark-2" data-name="checkmark"><rect class="eva-11"></rect><path class="eva-12" d="M9.86,18a1,1,0,0,1-.73-.32L4.27,12.51a1,1,0,1,1,1.46-1.37l4.12,4.39,8.41-9.2a1,1,0,1,1,1.48,1.34l-9.14,10a1,1,0,0,1-.73.33Z"></path></g></g></g></svg>&nbsp;Point Pertama - Dasar Digital Marketing</li><li >
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="64" fill="#f8f9fa" ><defs><style>.eva-11{fill:#fff;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="checkmark"><g id="checkmark-2" data-name="checkmark"><rect class="eva-11"></rect><path class="eva-12" d="M9.86,18a1,1,0,0,1-.73-.32L4.27,12.51a1,1,0,1,1,1.46-1.37l4.12,4.39,8.41-9.2a1,1,0,1,1,1.48,1.34l-9.14,10a1,1,0,0,1-.73.33Z"></path></g></g></g></svg>&nbsp;Point Kedua - Fundamental Digital Marketing</li><li >
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="64" fill="#f8f9fa" ><defs><style>.eva-11{fill:#fff;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="checkmark"><g id="checkmark-2" data-name="checkmark"><rect class="eva-11"></rect><path class="eva-12" d="M9.86,18a1,1,0,0,1-.73-.32L4.27,12.51a1,1,0,1,1,1.46-1.37l4.12,4.39,8.41-9.2a1,1,0,1,1,1.48,1.34l-9.14,10a1,1,0,0,1-.73.33Z"></path></g></g></g></svg>&nbsp;Point Ketiga - Studi Kasus Digital Marketing</li><li >
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="64" fill="#f8f9fa" ><defs><style>.eva-11{fill:#fff;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="checkmark"><g id="checkmark-2" data-name="checkmark"><rect class="eva-11"></rect><path class="eva-12" d="M9.86,18a1,1,0,0,1-.73-.32L4.27,12.51a1,1,0,1,1,1.46-1.37l4.12,4.39,8.41-9.2a1,1,0,1,1,1.48,1.34l-9.14,10a1,1,0,0,1-.73.33Z"></path></g></g></g></svg>&nbsp;Point Ketiga - Studi Kasus Digital Marketing</li><li >
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="64" fill="#f8f9fa" ><defs><style>.eva-11{fill:#fff;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="checkmark"><g id="checkmark-2" data-name="checkmark"><rect class="eva-11"></rect><path class="eva-12" d="M9.86,18a1,1,0,0,1-.73-.32L4.27,12.51a1,1,0,1,1,1.46-1.37l4.12,4.39,8.41-9.2a1,1,0,1,1,1.48,1.34l-9.14,10a1,1,0,0,1-.73.33Z"></path></g></g></g></svg>&nbsp;Point Ketiga - Studi Kasus Digital Marketing</li><i class="la la-star la-2x"></i>
-    </ul>
-</div></div>
-      
-    </div>
-  </div>
-</section>
-    </div>`
 });Vvveb.Sections.add("sections-content-list/list-4", {
     name: "List 4",
     image: Vvveb.themeBaseUrl + "/screenshots/sections-content-list/list-4-thumb.jpeg",
-    html: `<div class="section cta-home" id="chapter-4">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class=" 0 col-lg-12">
-            <div class="text-center">
-              <blockquote class="blockquote">
-                <h2 class="text-lg" style="font-size: 46px;" id="header-galeri-fitur-2">
- Terbukti bikin bisnis makin oke</h2><section title="three columns" class="py-4">
-  <div class="container">
+    html: `<div class="container-fluid" style="min-height: 150px; padding: 40px;" id="chapter-4"><h2 class="text-lg" style="font-size: 40px; text-align: center; font-family: &quot;Bai Jamjuree&quot;; padding-bottom: 30px;" id="header-galeri-fitur-2">
+ Terbukti bikin bisnis makin oke</h2><div class="container">
     <div class="row">
-      <div class="col" id="bg-list-4-column-1"><section title="two columns" class="py-4">
-  <div class="container">
-    <div class="row">
-      <div class="col-3" ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="64" height="64" fill="#f8f9fa"><defs><style>.eva-11{fill:none;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="archive"><g id="archive-2" data-name="archive"><rect class="eva-11" transform="translate(24 0) rotate(90)"></rect><path class="eva-12" d="M21,6a3,3,0,0,0-3-3H6A3,3,0,0,0,4,8.22V18a3,3,0,0,0,3,3H17a3,3,0,0,0,3-3V8.22A3,3,0,0,0,21,6ZM6,5H18a1,1,0,0,1,0,2H6A1,1,0,0,1,6,5ZM18,18a1,1,0,0,1-1,1H7a1,1,0,0,1-1-1V9H18Z"></path><rect class="eva-12" x="9" y="12" rx="0.87" ry="0.87"></rect></g></g></g></svg></div>
-      <div class="col" ><h4>300+ Bisnis Aktif</h4><p>Aktif pakai layanan kami buat bantu bisnisnya</p></div>
+      <div class="col-lg-4" style="background-color: rgb(108, 117, 125); padding: 30px;"><h1 style="font-size: 25px; color: rgb(248, 249, 250);">300 Bisnis Aktif</h1><p class="" style="color: rgb(248, 249, 250); font-family: &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;, sans-serif; font-size: 21px;">Aktif pakai layanan kami buat bantu bisnisnya</p></div><div class="col-lg-4" style="background-color: rgb(184, 184, 184); padding: 30px;"><h1 style="font-size: 25px; color: rgb(248, 249, 250);">Tumbuh 15%</h1><p class="" style="color: rgb(248, 249, 250); font-family: &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;, sans-serif; font-size: 21px;">Aktif pakai layanan kami buat bantu bisnisnya</p></div><div class="col-lg-4" style="background-color: rgb(0, 123, 255); padding: 30px;"><h1 style="font-size: 25px; color: rgb(248, 249, 250);">Omzet Naik 300%</h1><p class="" style="color: rgb(248, 249, 250); font-family: &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;, sans-serif; font-size: 21px;">Aktif pakai layanan kami buat bantu bisnisnya</p></div>
+      
+      
     </div>
-  </div>
-</section></div>
-      <div class="col" id="bg-list-4-column-2"><section title="two columns" class="py-4">
-  <div class="container">
-    <div class="row">
-      <div class="col-3" ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="64" height="64" fill="#f8f9fa"><path d="M21.71,7.29a1,1,0,0,0-1.42,0L14,13.59,9.71,9.29a1,1,0,0,0-1.42,0l-6,6a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0L9,11.41l4.29,4.3a1,1,0,0,0,1.42,0l7-7A1,1,0,0,0,21.71,7.29Z"></path></svg></div>
-      <div class="col" ><h4>Tumbuh 15 %</h4><p>Spending iklan naik dengan hasil optimal. bisnis jadi lancar</p></div>
-    </div>
-  </div>
-</section></div>
-      <div class="col" id="bg-list-4-column-3"><section title="two columns" class="py-4">
-  <div class="container">
-    <div class="row">
-      <div class="col-3" ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="64" height="64" fill="#f8f9fa"><defs><style>.eva-11{fill:#fff;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="pricetags"><g id="pricetags-2" data-name="pricetags"><rect class="eva-11"></rect><path class="eva-12" d="M12.87,22a1.84,1.84,0,0,1-1.29-.53L5.17,15.05a1,1,0,0,1-.29-.61L4,5.09a1,1,0,0,1,.29-.8A1,1,0,0,1,5.09,4l9.35.88a1,1,0,0,1,.61.29l6.42,6.41a1.82,1.82,0,0,1,0,2.57l-7.32,7.32A1.82,1.82,0,0,1,12.87,22Zm-6-8.11,6,6,7.05-7.05-6-6L6.11,6.11Z"></path><circle class="eva-12" cx="10.5" cy="10.5" r="1.5"></circle></g></g></g></svg></div>
-      <div class="col" ><h4>Omzet naik 300%</h4><p>Buat yang toko online di urus oleh team berpengalaman kami</p></div>
-    </div>
-  </div>
-</section></div>
-    </div>
-  </div>
-</section>
-                                  <footer class="blockquote-footer h5 text-color mt-4">
- Fajar Riza Fauzi </footer>
-              </blockquote>
-            </div>
-          </div>
-        </div>
-      </div>
-
-</div>`
+  </div></div>`
 });Vvveb.Sections.add("sections-content-list/list-5", {
     name: "List 5",
     image: Vvveb.themeBaseUrl + "/screenshots/sections-content-list/list-5-thumb.jpeg",
@@ -364,36 +245,36 @@ Vvveb.Sections.add("sections-content-list/list-1", {
           <div class=" 0 col-lg-12">
             <div class="text-center">
               <blockquote class="blockquote">
-                <h2 id="chapter-5-header" class="text-lg" style="font-size: 57px;">
-                  Fitur Aplikasi Tersedia</h2><section title="three columns" class="py-4">
+                <h2 id="chapter-5-header" class="text-lg" style="font-size: 40px;">
+ Fitur Aplikasi Tersedia</h2><section title="three columns" class="py-4">
                     <div class="container">
                       <div class="row">
                         <div class="col">
                           <div class="card p-3" id="box_fitur_1">
-                              <div class="oval_box_fitur oval_1">1</div>
+                              <div class="oval_box_fitur oval_1" style="background-color: rgb(255, 193, 7);">1</div>
                               <h4 class="title_fitur_1">Maksimalin Closing WA</h4>
-                              <p  class="desc_fitur" id="">Minimalin biaya marketing</p>
+                              <p class="desc_fitur" id="" style="background-color: rgb(0, 123, 255);">Minimalin biaya marketing</p>
                           </div>
                         </div>
                         <div class="col">
                           <div class="card p-3" id="box_fitur_1">
-                              <div class="oval_box_fitur oval_1">2</div>
+                              <div class="oval_box_fitur oval_1" style="background-color: rgb(255, 193, 7);">2</div>
                               <h4 class="title_fitur_1">Maksimalin Closing WA</h4>
-                              <p  class="desc_fitur" id="">Minimalin biaya marketing</p>
+                              <p class="desc_fitur" id="" style="background-color: rgb(0, 123, 255);">Minimalin biaya marketing</p>
                           </div>
                         </div>
                         <div class="col">
                           <div class="card p-3" id="box_fitur_1">
-                              <div class="oval_box_fitur oval_1">3</div>
+                              <div class="oval_box_fitur oval_1" style="background-color: rgb(255, 193, 7);">3</div>
                               <h4 class="title_fitur_1">Maksimalin Closing WA</h4>
-                              <p  class="desc_fitur" id="">Minimalin biaya marketing</p>
+                              <p class="desc_fitur" id="" style="background-color: rgb(0, 123, 255);">Minimalin biaya marketing</p>
                           </div>
                         </div>
                       </div>
                     </div>
                   </section>
                                   <footer class="blockquote-footer h5 text-color mt-4">
-                  Fajar Riza Fauzi </footer>
+ Fajar Riza Fauzi </footer>
               </blockquote>
             </div>
           </div>
@@ -412,30 +293,30 @@ Vvveb.Sections.add("sections-content-list/list-1", {
           <div class=" 0 col-lg-12">
             <div class="text-center">
               <blockquote class="blockquote">
-                <h2 id="header-galeri-fitur-2" class="text-lg" style="font-size: 57px;">
+                <h2 id="header-galeri-fitur-2" class="text-lg" style="font-size: 57px; font-family: Taprom;">
                   Fitur Aplikasi Tersedia</h2><section title="three columns" class="py-4">
                     <div class="container">
                       <div class="row">
+                        
+                        
                         <div class="col">
                           
                         <div class="card p-3" id="box_fitur_3">
-                            <div class="oval_box_fitur oval_1" ><br><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="35" height="35" fill="#f8f9fa"><defs><style>.eva-11{fill:#fff;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="clock"><g id="clock-2" data-name="clock"><rect class="eva-11" transform="translate(24 24) rotate(180)"></rect><path class="eva-12" d="M12,2A10,10,0,1,0,22,12,10,10,0,0,0,12,2Zm0,18a8,8,0,1,1,8-8A8,8,0,0,1,12,20Z"></path><path class="eva-12" d="M16,11H13V8a1,1,0,0,0-2,0v4a1,1,0,0,0,1,1h4a1,1,0,0,0,0-2Z"></path></g></g></g></svg></div>
-                            <h4 class="title_fitur_1" style="text-align: left;">Maksimalin Closing WA</h4>
-                            <p class="desc_fitur_2">Minimalin biaya marketing</p>
-                        </div></div>
-                        <div class="col">
+                            <div class="oval_box_fitur oval_1" style="background-color: rgb(0, 123, 255);"><br><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="35" height="35" fill="#f8f9fa"><defs><style>.eva-11{fill:#fff;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="alert-triangle"><g id="alert-triangle-2" data-name="alert-triangle"><rect class="eva-11" transform="translate(24 0) rotate(90)"></rect><path class="eva-12" d="M22.56,16.3,14.89,3.58a3.43,3.43,0,0,0-5.78,0L1.44,16.3a3,3,0,0,0-.05,3A3.37,3.37,0,0,0,4.33,21H19.67a3.37,3.37,0,0,0,2.94-1.66A3,3,0,0,0,22.56,16.3Zm-1.7,2.05a1.31,1.31,0,0,1-1.19.65H4.33a1.31,1.31,0,0,1-1.19-.65,1,1,0,0,1,0-1L10.82,4.62a1.48,1.48,0,0,1,2.36,0l7.67,12.72A1,1,0,0,1,20.86,18.35Z"></path><circle class="eva-12" cx="12" cy="16" r="1"></circle><path class="eva-12" d="M12,8a1,1,0,0,0-1,1v4a1,1,0,0,0,2,0V9A1,1,0,0,0,12,8Z"></path></g></g></g></svg></div>
+                            <h4 class="title_fitur_1" style="text-align: left; padding-top: 10px; padding-bottom: 10px; font-family: ABeeZee;">Maksimalin Closing WA</h4>
+                            <p class="desc_fitur_2" style="font-family: Alata;">Minimalin biaya marketing</p>
+                        </div></div><div class="col">
                           
                         <div class="card p-3" id="box_fitur_3">
-                            <div class="oval_box_fitur oval_1" ><br><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="35" height="35" fill="#f8f9fa"><defs><style>.eva-11{fill:none;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="archive"><g id="archive-2" data-name="archive"><rect class="eva-11" transform="translate(24 0) rotate(90)"></rect><path class="eva-12" d="M21,6a3,3,0,0,0-3-3H6A3,3,0,0,0,4,8.22V18a3,3,0,0,0,3,3H17a3,3,0,0,0,3-3V8.22A3,3,0,0,0,21,6ZM6,5H18a1,1,0,0,1,0,2H6A1,1,0,0,1,6,5ZM18,18a1,1,0,0,1-1,1H7a1,1,0,0,1-1-1V9H18Z"></path><rect class="eva-12" x="9" y="12" rx="0.87" ry="0.87"></rect></g></g></g></svg></div>
-                            <h4 class="title_fitur_1" style="text-align: left;">Maksimalin Closing WA</h4>
-                            <p class="desc_fitur_2">Minimalin biaya marketing</p>
-                        </div></div>
-                        <div class="col">
+                            <div class="oval_box_fitur oval_1" style="background-color: rgb(0, 123, 255);"><br><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="35" height="35" fill="#f8f9fa"><defs><style>.eva-11{fill:#fff;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="alert-triangle"><g id="alert-triangle-2" data-name="alert-triangle"><rect class="eva-11" transform="translate(24 0) rotate(90)"></rect><path class="eva-12" d="M22.56,16.3,14.89,3.58a3.43,3.43,0,0,0-5.78,0L1.44,16.3a3,3,0,0,0-.05,3A3.37,3.37,0,0,0,4.33,21H19.67a3.37,3.37,0,0,0,2.94-1.66A3,3,0,0,0,22.56,16.3Zm-1.7,2.05a1.31,1.31,0,0,1-1.19.65H4.33a1.31,1.31,0,0,1-1.19-.65,1,1,0,0,1,0-1L10.82,4.62a1.48,1.48,0,0,1,2.36,0l7.67,12.72A1,1,0,0,1,20.86,18.35Z"></path><circle class="eva-12" cx="12" cy="16" r="1"></circle><path class="eva-12" d="M12,8a1,1,0,0,0-1,1v4a1,1,0,0,0,2,0V9A1,1,0,0,0,12,8Z"></path></g></g></g></svg></div>
+                            <h4 class="title_fitur_1" style="text-align: left; padding-top: 10px; padding-bottom: 10px; font-family: ABeeZee;">Maksimalin Closing WA</h4>
+                            <p class="desc_fitur_2" style="font-family: Alata;">Minimalin biaya marketing</p>
+                        </div></div><div class="col">
                           
                         <div class="card p-3" id="box_fitur_3">
-                            <div class="oval_box_fitur oval_1" ><br><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="35" height="35" fill="#f8f9fa"><defs><style>.eva-11{fill:#fff;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="alert-triangle"><g id="alert-triangle-2" data-name="alert-triangle"><rect class="eva-11" transform="translate(24 0) rotate(90)"></rect><path class="eva-12" d="M22.56,16.3,14.89,3.58a3.43,3.43,0,0,0-5.78,0L1.44,16.3a3,3,0,0,0-.05,3A3.37,3.37,0,0,0,4.33,21H19.67a3.37,3.37,0,0,0,2.94-1.66A3,3,0,0,0,22.56,16.3Zm-1.7,2.05a1.31,1.31,0,0,1-1.19.65H4.33a1.31,1.31,0,0,1-1.19-.65,1,1,0,0,1,0-1L10.82,4.62a1.48,1.48,0,0,1,2.36,0l7.67,12.72A1,1,0,0,1,20.86,18.35Z"></path><circle class="eva-12" cx="12" cy="16" r="1"></circle><path class="eva-12" d="M12,8a1,1,0,0,0-1,1v4a1,1,0,0,0,2,0V9A1,1,0,0,0,12,8Z"></path></g></g></g></svg></div>
-                            <h4 class="title_fitur_1" style="text-align: left;">Maksimalin Closing WA</h4>
-                            <p class="desc_fitur_2">Minimalin biaya marketing</p>
+                            <div class="oval_box_fitur oval_1" style="background-color: rgb(0, 123, 255);"><br><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="35" height="35" fill="#f8f9fa"><defs><style>.eva-11{fill:#fff;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="alert-triangle"><g id="alert-triangle-2" data-name="alert-triangle"><rect class="eva-11" transform="translate(24 0) rotate(90)"></rect><path class="eva-12" d="M22.56,16.3,14.89,3.58a3.43,3.43,0,0,0-5.78,0L1.44,16.3a3,3,0,0,0-.05,3A3.37,3.37,0,0,0,4.33,21H19.67a3.37,3.37,0,0,0,2.94-1.66A3,3,0,0,0,22.56,16.3Zm-1.7,2.05a1.31,1.31,0,0,1-1.19.65H4.33a1.31,1.31,0,0,1-1.19-.65,1,1,0,0,1,0-1L10.82,4.62a1.48,1.48,0,0,1,2.36,0l7.67,12.72A1,1,0,0,1,20.86,18.35Z"></path><circle class="eva-12" cx="12" cy="16" r="1"></circle><path class="eva-12" d="M12,8a1,1,0,0,0-1,1v4a1,1,0,0,0,2,0V9A1,1,0,0,0,12,8Z"></path></g></g></g></svg></div>
+                            <h4 class="title_fitur_1" style="text-align: left; padding-top: 10px; padding-bottom: 10px; font-family: ABeeZee;">Maksimalin Closing WA</h4>
+                            <p class="desc_fitur_2" style="font-family: Alata;">Minimalin biaya marketing</p>
                         </div></div>
                       </div>
                     </div>
@@ -450,85 +331,6 @@ Vvveb.Sections.add("sections-content-list/list-1", {
 
 
     </div>`
-});Vvveb.Sections.add("sections-content-list/list-7", {
-    name: "List 7",
-    image: Vvveb.themeBaseUrl + "/screenshots/sections-content-list/list-7-thumb.jpeg",
-    html: `<div class="section produk-fitur-2" id="chapter-7">
-  
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class=" 0 col-lg-12">
-            <div class="text-center">
-              <blockquote class="blockquote">
-                <h2 class="text-lg" style="font-size: 46px;" id="header-galeri-fitur-2">
- Terbukti bikin bisnis makin oke</h2><section title="three columns" class="py-4">
-  <div class="container" id="container-1">
-    <div class="row">
-      <div class="col-lg-4" id="bg-list-7-column-1">
-  <div class="container">
-    <div class="row">
-      <div class="col-3" ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="64" height="64" fill="#ffc107"><defs><style>.eva-11{fill:none;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="archive"><g id="archive-2" data-name="archive"><rect class="eva-11" transform="translate(24 0) rotate(90)"></rect><path class="eva-12" d="M21,6a3,3,0,0,0-3-3H6A3,3,0,0,0,4,8.22V18a3,3,0,0,0,3,3H17a3,3,0,0,0,3-3V8.22A3,3,0,0,0,21,6ZM6,5H18a1,1,0,0,1,0,2H6A1,1,0,0,1,6,5ZM18,18a1,1,0,0,1-1,1H7a1,1,0,0,1-1-1V9H18Z"></path><rect class="eva-12" x="9" y="12" rx="0.87" ry="0.87"></rect></g></g></g></svg></div>
-      <div class="col" ><h4>300+ Bisnis Aktif</h4><p>Aktif pakai layanan kami buat bantu bisnisnya</p></div>
-    </div>
-  </div></div>
-      <div class="col-lg-4" id="bg-list-7-column-2">
-  <div class="container">
-    <div class="row">
-      <div class="col-3" ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="64" height="64" fill="#ffc107" ><path d="M21.71,7.29a1,1,0,0,0-1.42,0L14,13.59,9.71,9.29a1,1,0,0,0-1.42,0l-6,6a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0L9,11.41l4.29,4.3a1,1,0,0,0,1.42,0l7-7A1,1,0,0,0,21.71,7.29Z"></path></svg></div>
-      <div class="col" ><h4>Tumbuh 15 %</h4><p>Spending iklan naik dengan hasil optimal. bisnis jadi lancar</p></div>
-    </div>
-  </div></div>
-      <div class="col-lg-4" id="bg-list-7-column-3">
-  <div class="container">
-    <div class="row">
-      <div class="col-3" ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="64" height="64" fill="#ffc107" ><defs><style>.eva-11{fill:#fff;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="pricetags"><g id="pricetags-2" data-name="pricetags"><rect class="eva-11"></rect><path class="eva-12" d="M12.87,22a1.84,1.84,0,0,1-1.29-.53L5.17,15.05a1,1,0,0,1-.29-.61L4,5.09a1,1,0,0,1,.29-.8A1,1,0,0,1,5.09,4l9.35.88a1,1,0,0,1,.61.29l6.42,6.41a1.82,1.82,0,0,1,0,2.57l-7.32,7.32A1.82,1.82,0,0,1,12.87,22Zm-6-8.11,6,6,7.05-7.05-6-6L6.11,6.11Z"></path><circle class="eva-12" cx="10.5" cy="10.5" r="1.5"></circle></g></g></g></svg></div>
-      <div class="col" ><h4>Omzet naik 300%</h4><p>Buat yang toko online di urus oleh team berpengalaman kami</p></div>
-    </div>
-  </div></div>
-    </div>
-  </div><div class="container">
-    <div class="row">
-      <div class="col-lg-4" id="bg-list-7-column-1">
-  <div class="container">
-    <div class="row">
-      <div class="col-3" ><svg version="1.1" width="64" height="64" viewBox="0 0 36 36" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#ffc107">
-    
-    <path d="M33,29H3A1,1,0,1,1,3,27H33A1,1,0,1,1,33,29Z" class="clr-i-outline clr-i-outline-path-1"></path><path d="M33,25h-.62a8.11,8.11,0,0,1-8-6.67C23.62,14.44,21.89,7.94,18,7.94s-5.69,6.51-6.38,10.39a8.11,8.11,0,0,1-8,6.65H3a1,1,0,1,1,0-2h.6A6.11,6.11,0,0,0,9.6,18c1.41-7.88,4.3-12,8.35-12s6.93,4.16,8.33,12a6.11,6.11,0,0,0,6,5H33a1,1,0,0,1,0,2Z" class="clr-i-outline clr-i-outline-path-2"></path>
-    <rect x="0" y="0" width="36" height="36" fill-opacity="0"></rect>
-</svg></div>
-      <div class="col" ><h4>CPR Turun 60%</h4><p>Buat yang ngiklan pakai landing page landingin dijamin happy</p></div>
-    </div>
-  </div>
-</section></div>
-      <div class="col-lg-4" id="bg-list-7-column-2">
-  <div class="container">
-    <div class="row">
-      <div class="col-3" ><svg version="1.1" width="64" height="64" viewBox="0 0 36 36" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#ffc107" >
-    
-    <path class="clr-i-outline clr-i-outline-path-1" d="M32,5H4A2,2,0,0,0,2,7V29a2,2,0,0,0,2,2H32a2,2,0,0,0,2-2V7A2,2,0,0,0,32,5ZM4,29V7H32V29Z"></path><path d="M 7 12 L 17 12 L 17 26 L 7 26 L 7 12 Z M 8.6 24.4 L 15.4 24.4 L 15.4 18.8 L 8.6 18.8 L 8.6 24.4 Z M 15.4 13.6 L 8.6 13.6 L 8.6 17.2 L 15.4 17.2 L 15.4 13.6 Z" class="clr-i-outline clr-i-outline-path-2"></path><path d="M 19 24 L 29 24 L 29 10 L 19 10 L 19 24 Z M 20.6 11.6 L 27.4 11.6 L 27.4 17.2 L 20.6 17.2 L 20.6 11.6 Z M 27.4 22.4 L 20.6 22.4 L 20.6 18.8 L 27.4 18.8 L 27.4 22.4 Z" class="clr-i-outline clr-i-outline-path-3"></path>
-    <rect x="0" y="0" width="36" height="36" fill-opacity="0"></rect>
-</svg></div>
-      <div class="col" ><h4>2500 + jago ngiklan</h4><p>Mulai dari 0 sudah banyak yang jago ngiklan dan cuan</p></div>
-    </div>
-  </div></div>
-      <div class="col-lg-4" id="bg-list-7-column-3">
-  <div class="container">
-    <div class="row">
-      <div class="col-3" ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="64" height="64" fill="#ffc107" ><defs><style>.eva-11{fill:#fff;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="external-link"><g id="external-link-2" data-name="external-link"><rect class="eva-11"></rect><path class="eva-12" d="M20,11a1,1,0,0,0-1,1v6a1,1,0,0,1-1,1H6a1,1,0,0,1-1-1V6A1,1,0,0,1,6,5h6a1,1,0,0,0,0-2H6A3,3,0,0,0,3,6V18a3,3,0,0,0,3,3H18a3,3,0,0,0,3-3V12A1,1,0,0,0,20,11Z"></path><path class="eva-12" d="M16,5h1.58l-6.29,6.28a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0L19,6.42V8a1,1,0,0,0,1,1h0a1,1,0,0,0,1-1V4a1,1,0,0,0-1-1L16,3h0a1,1,0,0,0,0,2Z"></path></g></g></g></svg></div>
-      <div class="col" ><h4>Omzet naik 300%</h4><p>Buat yang toko online di urus oleh team berpengalaman kami</p></div>
-    </div>
-  </div></div>
-    </div>
-  </div>
-                                  <footer class="blockquote-footer h5 text-color mt-4">
- Fajar Riza Fauzi </footer>
-              </blockquote>
-            </div>
-          </div>
-        </div>
-      </div>
-
-</div>`
 });Vvveb.Sections.add("sections-content-list/list-8", {
     name: "List 8",
     image: Vvveb.themeBaseUrl + "/screenshots/sections-content-list/list-8-thumb.jpeg",
@@ -543,20 +345,20 @@ Vvveb.Sections.add("sections-content-list/list-1", {
  Terbukti bikin bisnis makin oke</h2><section title="three columns" class="py-4">
   <div class="container">
     <div class="row">
-      <div class="col" id="bg-list-4-column-1"><section title="two columns" class="py-4">
+      <div class="col" id="bg-list-4-column-1" style="background-color: rgb(0, 123, 255);"><section title="two columns" class="py-4">
   <div class="container">
     <div class="row">
-      <div class="col-3" ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="64" height="64" fill="#f8f9fa"><defs><style>.eva-11{fill:none;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="archive"><g id="archive-2" data-name="archive"><rect class="eva-11" transform="translate(24 0) rotate(90)"></rect><path class="eva-12" d="M21,6a3,3,0,0,0-3-3H6A3,3,0,0,0,4,8.22V18a3,3,0,0,0,3,3H17a3,3,0,0,0,3-3V8.22A3,3,0,0,0,21,6ZM6,5H18a1,1,0,0,1,0,2H6A1,1,0,0,1,6,5ZM18,18a1,1,0,0,1-1,1H7a1,1,0,0,1-1-1V9H18Z"></path><rect class="eva-12" x="9" y="12" rx="0.87" ry="0.87"></rect></g></g></g></svg></div>
-      <div class="col" ><h4>300+ Bisnis Aktif</h4><p>Aktif pakai layanan kami buat bantu bisnisnya</p></div>
+      <div class="col-3"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="64" height="64" fill="#f8f9fa" style="background-color: rgb(8, 46, 126);"><defs><style>.eva-11{fill:none;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="archive"><g id="archive-2" data-name="archive"><rect class="eva-11" transform="translate(24 0) rotate(90)"></rect><path class="eva-12" d="M21,6a3,3,0,0,0-3-3H6A3,3,0,0,0,4,8.22V18a3,3,0,0,0,3,3H17a3,3,0,0,0,3-3V8.22A3,3,0,0,0,21,6ZM6,5H18a1,1,0,0,1,0,2H6A1,1,0,0,1,6,5ZM18,18a1,1,0,0,1-1,1H7a1,1,0,0,1-1-1V9H18Z"></path><rect class="eva-12" x="9" y="12" rx="0.87" ry="0.87"></rect></g></g></g></svg></div>
+      <div class="col"><h4>300+ Bisnis Aktif</h4><p>Aktif pakai layanan kami buat bantu bisnisnya</p></div>
     </div>
   </div>
 </section></div>
       
-      <div class="col" id="bg-list-4-column-3"><section title="two columns" class="py-4">
+      <div class="col" id="bg-list-4-column-3" style="background-color: rgb(11, 92, 224);"><section title="two columns" class="py-4">
   <div class="container">
     <div class="row">
-      <div class="col-3" ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="64" height="64" fill="#f8f9fa"><defs><style>.eva-11{fill:#fff;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="pricetags"><g id="pricetags-2" data-name="pricetags"><rect class="eva-11"></rect><path class="eva-12" d="M12.87,22a1.84,1.84,0,0,1-1.29-.53L5.17,15.05a1,1,0,0,1-.29-.61L4,5.09a1,1,0,0,1,.29-.8A1,1,0,0,1,5.09,4l9.35.88a1,1,0,0,1,.61.29l6.42,6.41a1.82,1.82,0,0,1,0,2.57l-7.32,7.32A1.82,1.82,0,0,1,12.87,22Zm-6-8.11,6,6,7.05-7.05-6-6L6.11,6.11Z"></path><circle class="eva-12" cx="10.5" cy="10.5" r="1.5"></circle></g></g></g></svg></div>
-      <div class="col" ><h4>Omzet naik 300%</h4><p>Buat yang toko online di urus oleh team berpengalaman kami</p></div>
+      <div class="col-3"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="64" height="64" fill="#f8f9fa" style="background-color: rgb(7, 46, 126);"><defs><style>.eva-11{fill:#fff;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="pricetags"><g id="pricetags-2" data-name="pricetags"><rect class="eva-11"></rect><path class="eva-12" d="M12.87,22a1.84,1.84,0,0,1-1.29-.53L5.17,15.05a1,1,0,0,1-.29-.61L4,5.09a1,1,0,0,1,.29-.8A1,1,0,0,1,5.09,4l9.35.88a1,1,0,0,1,.61.29l6.42,6.41a1.82,1.82,0,0,1,0,2.57l-7.32,7.32A1.82,1.82,0,0,1,12.87,22Zm-6-8.11,6,6,7.05-7.05-6-6L6.11,6.11Z"></path><circle class="eva-12" cx="10.5" cy="10.5" r="1.5"></circle></g></g></g></svg></div>
+      <div class="col"><h4>Omzet naik 300%</h4><p>Buat yang toko online di urus oleh team berpengalaman kami</p></div>
     </div>
   </div>
 </section></div>
@@ -606,253 +408,6 @@ Vvveb.Sections.add("sections-content-list/list-1", {
                     </div>
                 </div>
                 </section>
-                                  <footer class="blockquote-footer h5 text-color mt-4">
- Fajar Riza Fauzi </footer>
-              </blockquote>
-            </div>
-          </div>
-        </div>
-      </div>
-
-</div>`
-});Vvveb.Sections.add("sections-content-list/list-10", {
-    name: "List 10",
-    image: Vvveb.themeBaseUrl + "/screenshots/sections-content-list/list-10-thumb.jpeg",
-    html: `<div class="section produk-fitur-2" id="chapter-10">
-    
-      
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-8">
-            <div class="text-center">
-              <blockquote class="blockquote">
-                
-                
-              </blockquote>
-            </div>
-          </div>
-        </div>
-      </div>
-    <section title="two columns" class="py-4">
-  <div class="container">
-    <div class="row">
-      <div class="col"><div title="two columns" id="box_fitur_7" class="py-4">
-    <div class="container">
-        <div class="row">
-        <div class="col-3"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="64" height="64" fill="#f8f9fa"><defs><style>.eva-11{fill:none;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="archive"><g id="archive-2" data-name="archive"><rect class="eva-11" transform="translate(24 0) rotate(90)"></rect><path class="eva-12" d="M21,6a3,3,0,0,0-3-3H6A3,3,0,0,0,4,8.22V18a3,3,0,0,0,3,3H17a3,3,0,0,0,3-3V8.22A3,3,0,0,0,21,6ZM6,5H18a1,1,0,0,1,0,2H6A1,1,0,0,1,6,5ZM18,18a1,1,0,0,1-1,1H7a1,1,0,0,1-1-1V9H18Z"></path><rect class="eva-12" x="9" y="12" rx="0.87" ry="0.87"></rect></g></g></g></svg></div>
-        <div class="col"><h4>300+ Bisnis Aktif</h4><p>Aktif pakai layanan kami buat bantu bisnisnya</p></div>
-        </div>
-    </div>
-</div><div id="listed-3" class="section-heading book-info mt-5 mt-lg-0">
-    
-    <ul class="list-unstyled mt-4 mb-5">
-        <li>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="64" fill="#f8f9fa" color="#f8f9fa"><defs><style>.eva-11{fill:#fff;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="checkmark"><g id="checkmark-2" data-name="checkmark"><rect class="eva-11"></rect><path class="eva-12" d="M9.86,18a1,1,0,0,1-.73-.32L4.27,12.51a1,1,0,1,1,1.46-1.37l4.12,4.39,8.41-9.2a1,1,0,1,1,1.48,1.34l-9.14,10a1,1,0,0,1-.73.33Z"></path></g></g></g></svg>&nbsp;Point Pertama - Dasar Digital Marketing</li><li>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="64" fill="#f8f9fa"><defs><style>.eva-11{fill:#fff;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="checkmark"><g id="checkmark-2" data-name="checkmark"><rect class="eva-11"></rect><path class="eva-12" d="M9.86,18a1,1,0,0,1-.73-.32L4.27,12.51a1,1,0,1,1,1.46-1.37l4.12,4.39,8.41-9.2a1,1,0,1,1,1.48,1.34l-9.14,10a1,1,0,0,1-.73.33Z"></path></g></g></g></svg>&nbsp;Point Kedua - Fundamental Digital Marketing</li><li>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="64" fill="#f8f9fa"><defs><style>.eva-11{fill:#fff;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="checkmark"><g id="checkmark-2" data-name="checkmark"><rect class="eva-11"></rect><path class="eva-12" d="M9.86,18a1,1,0,0,1-.73-.32L4.27,12.51a1,1,0,1,1,1.46-1.37l4.12,4.39,8.41-9.2a1,1,0,1,1,1.48,1.34l-9.14,10a1,1,0,0,1-.73.33Z"></path></g></g></g></svg>&nbsp;Point Ketiga - Studi Kasus Digital Marketing</li><li>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="64" fill="#f8f9fa"><defs><style>.eva-11{fill:#fff;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="checkmark"><g id="checkmark-2" data-name="checkmark"><rect class="eva-11"></rect><path class="eva-12" d="M9.86,18a1,1,0,0,1-.73-.32L4.27,12.51a1,1,0,1,1,1.46-1.37l4.12,4.39,8.41-9.2a1,1,0,1,1,1.48,1.34l-9.14,10a1,1,0,0,1-.73.33Z"></path></g></g></g></svg>&nbsp;Point Ketiga - Studi Kasus Digital Marketing</li><li>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="64" fill="#f8f9fa"><defs><style>.eva-11{fill:#fff;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="checkmark"><g id="checkmark-2" data-name="checkmark"><rect class="eva-11"></rect><path class="eva-12" d="M9.86,18a1,1,0,0,1-.73-.32L4.27,12.51a1,1,0,1,1,1.46-1.37l4.12,4.39,8.41-9.2a1,1,0,1,1,1.48,1.34l-9.14,10a1,1,0,0,1-.73.33Z"></path></g></g></g></svg>&nbsp;Point Ketiga - Studi Kasus Digital Marketing</li><i class="la la-star la-2x"></i>
-    </ul>
-
-</div></div>
-      <div class="col"><div title="two columns" id="box_fitur_7" class="py-4">
-    <div class="container">
-        <div class="row">
-        <div class="col-3"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="64" height="64" fill="#f8f9fa"><defs><style>.eva-11{fill:none;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="archive"><g id="archive-2" data-name="archive"><rect class="eva-11" transform="translate(24 0) rotate(90)"></rect><path class="eva-12" d="M21,6a3,3,0,0,0-3-3H6A3,3,0,0,0,4,8.22V18a3,3,0,0,0,3,3H17a3,3,0,0,0,3-3V8.22A3,3,0,0,0,21,6ZM6,5H18a1,1,0,0,1,0,2H6A1,1,0,0,1,6,5ZM18,18a1,1,0,0,1-1,1H7a1,1,0,0,1-1-1V9H18Z"></path><rect class="eva-12" x="9" y="12" rx="0.87" ry="0.87"></rect></g></g></g></svg></div>
-        <div class="col"><h4>300+ Bisnis Aktif</h4><p>Aktif pakai layanan kami buat bantu bisnisnya</p></div>
-        </div>
-    </div>
-</div><div id="listed-3" class="section-heading book-info mt-5 mt-lg-0">
-    
-    <ul class="list-unstyled mt-4 mb-5">
-        <li>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="64" fill="#f8f9fa" color="#f8f9fa"><defs><style>.eva-11{fill:#fff;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="checkmark"><g id="checkmark-2" data-name="checkmark"><rect class="eva-11"></rect><path class="eva-12" d="M9.86,18a1,1,0,0,1-.73-.32L4.27,12.51a1,1,0,1,1,1.46-1.37l4.12,4.39,8.41-9.2a1,1,0,1,1,1.48,1.34l-9.14,10a1,1,0,0,1-.73.33Z"></path></g></g></g></svg>&nbsp;Point Pertama - Dasar Digital Marketing</li><li>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="64" fill="#f8f9fa"><defs><style>.eva-11{fill:#fff;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="checkmark"><g id="checkmark-2" data-name="checkmark"><rect class="eva-11"></rect><path class="eva-12" d="M9.86,18a1,1,0,0,1-.73-.32L4.27,12.51a1,1,0,1,1,1.46-1.37l4.12,4.39,8.41-9.2a1,1,0,1,1,1.48,1.34l-9.14,10a1,1,0,0,1-.73.33Z"></path></g></g></g></svg>&nbsp;Point Kedua - Fundamental Digital Marketing</li><li>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="64" fill="#f8f9fa"><defs><style>.eva-11{fill:#fff;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="checkmark"><g id="checkmark-2" data-name="checkmark"><rect class="eva-11"></rect><path class="eva-12" d="M9.86,18a1,1,0,0,1-.73-.32L4.27,12.51a1,1,0,1,1,1.46-1.37l4.12,4.39,8.41-9.2a1,1,0,1,1,1.48,1.34l-9.14,10a1,1,0,0,1-.73.33Z"></path></g></g></g></svg>&nbsp;Point Ketiga - Studi Kasus Digital Marketing</li><li>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="64" fill="#f8f9fa"><defs><style>.eva-11{fill:#fff;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="checkmark"><g id="checkmark-2" data-name="checkmark"><rect class="eva-11"></rect><path class="eva-12" d="M9.86,18a1,1,0,0,1-.73-.32L4.27,12.51a1,1,0,1,1,1.46-1.37l4.12,4.39,8.41-9.2a1,1,0,1,1,1.48,1.34l-9.14,10a1,1,0,0,1-.73.33Z"></path></g></g></g></svg>&nbsp;Point Ketiga - Studi Kasus Digital Marketing</li><li>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="64" fill="#f8f9fa"><defs><style>.eva-11{fill:#fff;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="checkmark"><g id="checkmark-2" data-name="checkmark"><rect class="eva-11"></rect><path class="eva-12" d="M9.86,18a1,1,0,0,1-.73-.32L4.27,12.51a1,1,0,1,1,1.46-1.37l4.12,4.39,8.41-9.2a1,1,0,1,1,1.48,1.34l-9.14,10a1,1,0,0,1-.73.33Z"></path></g></g></g></svg>&nbsp;Point Ketiga - Studi Kasus Digital Marketing</li><i class="la la-star la-2x"></i>
-    </ul>
-
-</div></div>
-    </div>
-  </div>
-</section>
-
-</div>`
-});Vvveb.Sections.add("sections-content-list/list-11", {
-    name: "List 11",
-    image: Vvveb.themeBaseUrl + "/screenshots/sections-content-list/list-11-thumb.jpeg",
-    html: `<div class="section produk-fitur-2" id="chapter-11">
-    
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-8">
-            <div class="text-center">
-              <blockquote class="blockquote">
-                
-                
-              </blockquote>
-            </div>
-          </div>
-        </div>
-      </div>
-    <section title="two columns" class="py-4">
-  <div class="container">
-    <div class="row">
-      <div class="col"><div id="listed-4" class="card cards">
-    
-    <div class="card-image">
-        
-    </div>	  
-    <div class="card-body"><section title="one column" class="py-4">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="64" height="64"><defs><style>.eva-11{fill:#fff;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="browser"><g id="browser-2" data-name="browser"><rect class="eva-11"></rect><path class="eva-12" d="M18,3H6A3,3,0,0,0,3,6V18a3,3,0,0,0,3,3H18a3,3,0,0,0,3-3V6A3,3,0,0,0,18,3Zm1,15a1,1,0,0,1-1,1H6a1,1,0,0,1-1-1V11H19ZM5,9V6A1,1,0,0,1,6,5H18a1,1,0,0,1,1,1V9Z"></path><circle class="eva-12" cx="8" cy="7.03" r="1"></circle><circle class="eva-12" cx="12" cy="7.03" r="1"></circle></g></g></g></svg></div>
-    </div>
-  </div>
-</section><section title="two columns" class="py-4">
-  <div class="container">
-    <div class="row">
-      <div class="   col-lg-2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="64" height="64"><defs><style>.eva-11{fill:#fff;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="checkmark"><g id="checkmark-2" data-name="checkmark"><rect class="eva-11"></rect><path class="eva-12" d="M9.86,18a1,1,0,0,1-.73-.32L4.27,12.51a1,1,0,1,1,1.46-1.37l4.12,4.39,8.41-9.2a1,1,0,1,1,1.48,1.34l-9.14,10a1,1,0,0,1-.73.33Z"></path></g></g></g></svg></div>
-      <div class=" col-lg-10"><p>Mudah Digunakan</p></div>
-    </div><div class="row">
-      <div class="   col-lg-2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="64" height="64"><defs><style>.eva-11{fill:#fff;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="checkmark"><g id="checkmark-2" data-name="checkmark"><rect class="eva-11"></rect><path class="eva-12" d="M9.86,18a1,1,0,0,1-.73-.32L4.27,12.51a1,1,0,1,1,1.46-1.37l4.12,4.39,8.41-9.2a1,1,0,1,1,1.48,1.34l-9.14,10a1,1,0,0,1-.73.33Z"></path></g></g></g></svg></div>
-      <div class=" col-lg-10"><p>Ketersediaan 24/7</p></div>
-    </div><div class="row">
-      <div class="   col-lg-2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="64" height="64"><defs><style>.eva-11{fill:#fff;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="checkmark"><g id="checkmark-2" data-name="checkmark"><rect class="eva-11"></rect><path class="eva-12" d="M9.86,18a1,1,0,0,1-.73-.32L4.27,12.51a1,1,0,1,1,1.46-1.37l4.12,4.39,8.41-9.2a1,1,0,1,1,1.48,1.34l-9.14,10a1,1,0,0,1-.73.33Z"></path></g></g></g></svg></div>
-      <div class=" col-lg-10"><p>Kecepatan dan Kinerja</p></div>
-    </div><div class="row">
-      <div class="   col-lg-2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="64" height="64"><defs><style>.eva-11{fill:#fff;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="checkmark"><g id="checkmark-2" data-name="checkmark"><rect class="eva-11"></rect><path class="eva-12" d="M9.86,18a1,1,0,0,1-.73-.32L4.27,12.51a1,1,0,1,1,1.46-1.37l4.12,4.39,8.41-9.2a1,1,0,1,1,1.48,1.34l-9.14,10a1,1,0,0,1-.73.33Z"></path></g></g></g></svg></div>
-      <div class=" col-lg-10"><p>Keamanan Terjamin</p></div>
-    </div><div class="row">
-      <div class="   col-lg-2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="64" height="64"><defs><style>.eva-11{fill:#fff;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="checkmark"><g id="checkmark-2" data-name="checkmark"><rect class="eva-11"></rect><path class="eva-12" d="M9.86,18a1,1,0,0,1-.73-.32L4.27,12.51a1,1,0,1,1,1.46-1.37l4.12,4.39,8.41-9.2a1,1,0,1,1,1.48,1.34l-9.14,10a1,1,0,0,1-.73.33Z"></path></g></g></g></svg></div>
-      <div class=" col-lg-10"><p>Penyimpanan dan Bandwidth</p></div>
-    </div>
-  </div>
-</section>			
-        			
-        			
-        <a href="#" class="btn btn-default">Selengkapnya</a>		  
-    </div>		
-
-</div></div>
-      <div class="col"><div id="listed-4" class="card cards">
-    
-    <div class="card-image">
-        
-    </div>	  
-    <div class="card-body"><section title="one column" class="py-4">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="64" height="64"><defs><style>.eva-11{fill:#fff;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="browser"><g id="browser-2" data-name="browser"><rect class="eva-11"></rect><path class="eva-12" d="M18,3H6A3,3,0,0,0,3,6V18a3,3,0,0,0,3,3H18a3,3,0,0,0,3-3V6A3,3,0,0,0,18,3Zm1,15a1,1,0,0,1-1,1H6a1,1,0,0,1-1-1V11H19ZM5,9V6A1,1,0,0,1,6,5H18a1,1,0,0,1,1,1V9Z"></path><circle class="eva-12" cx="8" cy="7.03" r="1"></circle><circle class="eva-12" cx="12" cy="7.03" r="1"></circle></g></g></g></svg></div>
-    </div>
-  </div>
-</section><section title="two columns" class="py-4">
-  <div class="container">
-    <div class="row">
-      <div class="   col-lg-2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="64" height="64"><defs><style>.eva-11{fill:#fff;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="checkmark"><g id="checkmark-2" data-name="checkmark"><rect class="eva-11"></rect><path class="eva-12" d="M9.86,18a1,1,0,0,1-.73-.32L4.27,12.51a1,1,0,1,1,1.46-1.37l4.12,4.39,8.41-9.2a1,1,0,1,1,1.48,1.34l-9.14,10a1,1,0,0,1-.73.33Z"></path></g></g></g></svg></div>
-      <div class=" col-lg-10"><p>Mudah Digunakan</p></div>
-    </div><div class="row">
-      <div class="   col-lg-2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="64" height="64"><defs><style>.eva-11{fill:#fff;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="checkmark"><g id="checkmark-2" data-name="checkmark"><rect class="eva-11"></rect><path class="eva-12" d="M9.86,18a1,1,0,0,1-.73-.32L4.27,12.51a1,1,0,1,1,1.46-1.37l4.12,4.39,8.41-9.2a1,1,0,1,1,1.48,1.34l-9.14,10a1,1,0,0,1-.73.33Z"></path></g></g></g></svg></div>
-      <div class=" col-lg-10"><p>Ketersediaan 24/7</p></div>
-    </div><div class="row">
-      <div class="   col-lg-2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="64" height="64"><defs><style>.eva-11{fill:#fff;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="checkmark"><g id="checkmark-2" data-name="checkmark"><rect class="eva-11"></rect><path class="eva-12" d="M9.86,18a1,1,0,0,1-.73-.32L4.27,12.51a1,1,0,1,1,1.46-1.37l4.12,4.39,8.41-9.2a1,1,0,1,1,1.48,1.34l-9.14,10a1,1,0,0,1-.73.33Z"></path></g></g></g></svg></div>
-      <div class=" col-lg-10"><p>Kecepatan dan Kinerja</p></div>
-    </div><div class="row">
-      <div class="   col-lg-2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="64" height="64"><defs><style>.eva-11{fill:#fff;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="checkmark"><g id="checkmark-2" data-name="checkmark"><rect class="eva-11"></rect><path class="eva-12" d="M9.86,18a1,1,0,0,1-.73-.32L4.27,12.51a1,1,0,1,1,1.46-1.37l4.12,4.39,8.41-9.2a1,1,0,1,1,1.48,1.34l-9.14,10a1,1,0,0,1-.73.33Z"></path></g></g></g></svg></div>
-      <div class=" col-lg-10"><p>Keamanan Terjamin</p></div>
-    </div><div class="row">
-      <div class="   col-lg-2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="64" height="64"><defs><style>.eva-11{fill:#fff;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="checkmark"><g id="checkmark-2" data-name="checkmark"><rect class="eva-11"></rect><path class="eva-12" d="M9.86,18a1,1,0,0,1-.73-.32L4.27,12.51a1,1,0,1,1,1.46-1.37l4.12,4.39,8.41-9.2a1,1,0,1,1,1.48,1.34l-9.14,10a1,1,0,0,1-.73.33Z"></path></g></g></g></svg></div>
-      <div class=" col-lg-10"><p>Penyimpanan dan Bandwidth</p></div>
-    </div>
-  </div>
-</section>			
-        			
-        			
-        <a href="#" class="btn btn-default">Selengkapnya</a>		  
-    </div>		
-
-</div></div>
-    </div>
-  </div>
-</section>
-
-
-</div>`
-});Vvveb.Sections.add("sections-content-list/list-12", {
-    name: "List 12",
-    image: Vvveb.themeBaseUrl + "/screenshots/sections-content-list/list-12-thumb.jpeg",
-    html: `<div class="section produk-fitur-2" id="chapter-12">
-    
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class=" 0 col-lg-12">
-            <div class="text-center">
-              <blockquote class="blockquote">
-                <h2 class="text-lg" style="font-size: 46px;" id="header-galeri-fitur-2">
- Terbukti bikin bisnis makin oke</h2><section title="three columns" class="py-4">
-  <div class="container">
-    <div class="row">
-      
-      
-      
-    </div>
-  </div>
-<section title="three columns" class="py-4">
-  <div class="container">
-    <div class="row" id="chapter-12-head">
-      <div class="col-lg-4"><section title="two columns" class="py-4">
-  <div class="container">
-    <div class="row">
-      <div class="  col-3"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="64" height="64" id="chapter-12-icon"><defs><style>.eva-11{fill:none;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="archive"><g id="archive-2" data-name="archive"><rect class="eva-11" transform="translate(24 0) rotate(90)"></rect><path class="eva-12" d="M21,6a3,3,0,0,0-3-3H6A3,3,0,0,0,4,8.22V18a3,3,0,0,0,3,3H17a3,3,0,0,0,3-3V8.22A3,3,0,0,0,21,6ZM6,5H18a1,1,0,0,1,0,2H6A1,1,0,0,1,6,5ZM18,18a1,1,0,0,1-1,1H7a1,1,0,0,1-1-1V9H18Z"></path><rect class="eva-12" x="9" y="12" rx="0.87" ry="0.87"></rect></g></g></g></svg></div>
-      <div class="col" id="chapter-12-col-lg-6"><h4 id="chapter-12-header">Heading</h4><p id="chapter-12-content">Buat yang ngiklan pakai landing page landingin dijamin happy</p></div>
-    </div>
-  </div>
-</section></div><div class="col-lg-4"><section title="two columns" class="py-4">
-  <div class="container">
-    <div class="row">
-      <div class="  col-3"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="64" height="64" id="chapter-12-icon"><defs><style>.eva-11{fill:none;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="archive"><g id="archive-2" data-name="archive"><rect class="eva-11" transform="translate(24 0) rotate(90)"></rect><path class="eva-12" d="M21,6a3,3,0,0,0-3-3H6A3,3,0,0,0,4,8.22V18a3,3,0,0,0,3,3H17a3,3,0,0,0,3-3V8.22A3,3,0,0,0,21,6ZM6,5H18a1,1,0,0,1,0,2H6A1,1,0,0,1,6,5ZM18,18a1,1,0,0,1-1,1H7a1,1,0,0,1-1-1V9H18Z"></path><rect class="eva-12" x="9" y="12" rx="0.87" ry="0.87"></rect></g></g></g></svg></div>
-      <div class="col" id="chapter-12-col-lg-6"><h4 id="chapter-12-header">Heading</h4><p id="chapter-12-content">Buat yang ngiklan pakai landing page landingin dijamin happy</p></div>
-    </div>
-  </div>
-</section></div><div class="col-lg-4"><section title="two columns" class="py-4">
-  <div class="container">
-    <div class="row">
-      <div class="col-3"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="64" height="64" id="chapter-12-icon"><defs><style>.eva-11{fill:none;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="archive"><g id="archive-2" data-name="archive"><rect class="eva-11" transform="translate(24 0) rotate(90)"></rect><path class="eva-12" d="M21,6a3,3,0,0,0-3-3H6A3,3,0,0,0,4,8.22V18a3,3,0,0,0,3,3H17a3,3,0,0,0,3-3V8.22A3,3,0,0,0,21,6ZM6,5H18a1,1,0,0,1,0,2H6A1,1,0,0,1,6,5ZM18,18a1,1,0,0,1-1,1H7a1,1,0,0,1-1-1V9H18Z"></path><rect class="eva-12" x="9" y="12" rx="0.87" ry="0.87"></rect></g></g></g></svg></div>
-      <div class="col" id="chapter-12-col-lg-6"><h4 id="chapter-12-header">Heading</h4><p id="chapter-12-content">Buat yang ngiklan pakai landing page landingin dijamin happy</p></div>
-    </div>
-  </div>
-</section></div>
-      
-      
-    </div>
-  </div>
-<div class="background-container"></div><div class="row">
-      <div class="col-lg-4"><section title="two columns" class="py-4">
-  <div class="container">
-    <div class="row">
-      <div class="  col-3"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="64" height="64" id="chapter-12-icon"><defs><style>.eva-11{fill:none;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="archive"><g id="archive-2" data-name="archive"><rect class="eva-11" transform="translate(24 0) rotate(90)"></rect><path class="eva-12" d="M21,6a3,3,0,0,0-3-3H6A3,3,0,0,0,4,8.22V18a3,3,0,0,0,3,3H17a3,3,0,0,0,3-3V8.22A3,3,0,0,0,21,6ZM6,5H18a1,1,0,0,1,0,2H6A1,1,0,0,1,6,5ZM18,18a1,1,0,0,1-1,1H7a1,1,0,0,1-1-1V9H18Z"></path><rect class="eva-12" x="9" y="12" rx="0.87" ry="0.87"></rect></g></g></g></svg></div>
-      <div class="col" id="chapter-12-col-lg-6"><h4 id="chapter-12-header">Heading</h4><p id="chapter-12-content">Buat yang ngiklan pakai landing page landingin dijamin happy</p></div>
-    </div>
-  </div>
-</section></div><div class="col-lg-4"><section title="two columns" class="py-4">
-  <div class="container">
-    <div class="row">
-      <div class="  col-3"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="64" height="64" id="chapter-12-icon"><defs><style>.eva-11{fill:none;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="archive"><g id="archive-2" data-name="archive"><rect class="eva-11" transform="translate(24 0) rotate(90)"></rect><path class="eva-12" d="M21,6a3,3,0,0,0-3-3H6A3,3,0,0,0,4,8.22V18a3,3,0,0,0,3,3H17a3,3,0,0,0,3-3V8.22A3,3,0,0,0,21,6ZM6,5H18a1,1,0,0,1,0,2H6A1,1,0,0,1,6,5ZM18,18a1,1,0,0,1-1,1H7a1,1,0,0,1-1-1V9H18Z"></path><rect class="eva-12" x="9" y="12" rx="0.87" ry="0.87"></rect></g></g></g></svg></div>
-      <div class="col" id="chapter-12-col-lg-6"><h4 id="chapter-12-header">Heading</h4><p id="chapter-12-content">Buat yang ngiklan pakai landing page landingin dijamin happy</p></div>
-    </div>
-  </div>
-</section></div><div class="col-lg-4"><section title="two columns" class="py-4">
-  <div class="container">
-    <div class="row">
-      <div class="  col-3"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="64" height="64" id="chapter-12-icon"><defs><style>.eva-11{fill:none;opacity:0;}.eva-12{fill:inherit;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="archive"><g id="archive-2" data-name="archive"><rect class="eva-11" transform="translate(24 0) rotate(90)"></rect><path class="eva-12" d="M21,6a3,3,0,0,0-3-3H6A3,3,0,0,0,4,8.22V18a3,3,0,0,0,3,3H17a3,3,0,0,0,3-3V8.22A3,3,0,0,0,21,6ZM6,5H18a1,1,0,0,1,0,2H6A1,1,0,0,1,6,5ZM18,18a1,1,0,0,1-1,1H7a1,1,0,0,1-1-1V9H18Z"></path><rect class="eva-12" x="9" y="12" rx="0.87" ry="0.87"></rect></g></g></g></svg></div>
-      <div class="col" id="chapter-12-col-lg-6"><h4 id="chapter-12-header">Heading</h4><p id="chapter-12-content">Buat yang ngiklan pakai landing page landingin dijamin happy</p></div>
-    </div>
-  </div>
-</section></div>
-      
-      
-    </div></section></section>
                                   <footer class="blockquote-footer h5 text-color mt-4">
  Fajar Riza Fauzi </footer>
               </blockquote>
@@ -1034,7 +589,7 @@ Vvveb.Sections.add("sections-content-list/list-1", {
     
 </div>`
 });
-	Vvveb.SectionsGroup["Sections content list"] = ["sections-content-list/list-1","sections-content-list/list-3","sections-content-list/list-4","sections-content-list/list-5","sections-content-list/list-6","sections-content-list/list-7","sections-content-list/list-8","sections-content-list/list-9","sections-content-list/list-10","sections-content-list/list-11","sections-content-list/list-12","sections-content-list/list-13","sections-content-list/list-14"];
+	Vvveb.SectionsGroup["Sections content list"] = ["sections-content-list/list-1","sections-content-list/list-4","sections-content-list/list-5","sections-content-list/list-6","sections-content-list/list-8","sections-content-list/list-9","sections-content-list/list-13","sections-content-list/list-14"];
 Vvveb.Sections.add("sections-galeri/galeri-ebook-1", {
     name: "Galeri ebook 1",
     image: Vvveb.themeBaseUrl + "/screenshots/sections-galeri/galeri-ebook-1-thumb.jpeg",
@@ -1503,35 +1058,35 @@ Vvveb.Sections.add("sections-header/header-1", {
         <div class="row justify-content-center">
           <div class=" 0 col-lg-12">
             <div class="text-center">
-                <h2 class="5-title" style="font-size: 38px; font-family: Alata;" id="header-5-title">Bisa lebih cuan dengan tools ini</h2><p id="desc"><span style="font-size: 14px; font-family: ABeeZee;">Kenali benefit yang di dapat dari point dibawah ini. ngga perlu pusing pikirin hal<br>teknis. semua jadi lebih mudah<br></span></p><div title="three columns" id="cont-tree-column">
+                <h2 class="5-title" style="font-size: 38px; font-family: Alata; color: rgb(10, 10, 10);" id="header-5-title">Bisa lebih cuan dengan tools ini</h2><p id="desc" style="color: rgb(213, 212, 232);"><span style="font-size: 14px; font-family: ABeeZee; color: rgb(52, 58, 64);">Kenali benefit yang di dapat dari point dibawah ini. ngga perlu pusing pikirin hal<br>teknis. semua jadi lebih mudah<br></span></p><div title="three columns" id="cont-tree-column">
                 <div class="container">
                     <div class="row">
                     <div class="col  col-sm-3"><div class="card p-3" id="box_fitur_1">
-                    <div class="oval_box_fitur oval_1">1</div>
-                    <h4 class="title_fitur_1">Maksimalin Closing WA</h4>
-                    <p class="desc_fitur" id="">Minimalin biaya marketing</p>
-                </div><div class="card p-3 minlet" id="box_fitur_1">
-                    <div class="oval_box_fitur oval_1">1</div>
-                    <h4 class="title_fitur_1">Maksimalin Closing WA</h4>
-                    <p class="desc_fitur" id="">Minimalin biaya marketing</p>
+                    <div class="oval_box_fitur oval_1" style="background-color: rgb(12, 65, 151);">1</div>
+                    <h4 class="title_fitur_1" style="padding-bottom: 10px; padding-top: 10px;">Maksimalin Closing WA</h4>
+                    <p class="desc_fitur" id="" style="background-color: rgb(0, 123, 255); font-family: Alatsi; line-height: 19px; padding-top: 10px; padding-bottom: 10px;">Minimalin biaya marketing</p>
                 </div><div class="card p-3" id="box_fitur_1">
-                    <div class="oval_box_fitur oval_1">1</div>
-                    <h4 class="title_fitur_1">Maksimalin Closing WA</h4>
-                    <p class="desc_fitur" id="">Minimalin biaya marketing</p>
+                    <div class="oval_box_fitur oval_1" style="background-color: rgb(12, 65, 151);">1</div>
+                    <h4 class="title_fitur_1" style="padding-bottom: 10px; padding-top: 10px;">Maksimalin Closing WA</h4>
+                    <p class="desc_fitur" id="" style="background-color: rgb(0, 123, 255); font-family: Alatsi; line-height: 19px; padding-top: 10px; padding-bottom: 10px;">Minimalin biaya marketing</p>
+                </div><div class="card p-3" id="box_fitur_1">
+                    <div class="oval_box_fitur oval_1" style="background-color: rgb(12, 65, 151);">1</div>
+                    <h4 class="title_fitur_1" style="padding-bottom: 10px; padding-top: 10px;">Maksimalin Closing WA</h4>
+                    <p class="desc_fitur" id="" style="background-color: rgb(0, 123, 255); font-family: Alatsi; line-height: 19px; padding-top: 10px; padding-bottom: 10px;">Minimalin biaya marketing</p>
                 </div></div>
                     <div class="col"><img src="/public/media/superai-image-1732723324647-transformed.webp" class="mw-100 align-center" width="471" height="475"></div>
                     <div class="col  col-sm-3"><div class="card p-3" id="box_fitur_1">
-                    <div class="oval_box_fitur oval_1">1</div>
-                    <h4 class="title_fitur_1">Maksimalin Closing WA</h4>
-                    <p class="desc_fitur" id="">Minimalin biaya marketing</p>
+                    <div class="oval_box_fitur oval_1" style="background-color: rgb(12, 65, 151);">1</div>
+                    <h4 class="title_fitur_1" style="padding-bottom: 10px; padding-top: 10px;">Maksimalin Closing WA</h4>
+                    <p class="desc_fitur" id="" style="background-color: rgb(0, 123, 255); font-family: Alatsi; line-height: 19px; padding-top: 10px; padding-bottom: 10px;">Minimalin biaya marketing</p>
                 </div><div class="card p-3" id="box_fitur_1">
-                    <div class="oval_box_fitur oval_1">1</div>
-                    <h4 class="title_fitur_1">Maksimalin Closing WA</h4>
-                    <p class="desc_fitur" id="">Minimalin biaya marketing</p>
+                    <div class="oval_box_fitur oval_1" style="background-color: rgb(12, 65, 151);">1</div>
+                    <h4 class="title_fitur_1" style="padding-bottom: 10px; padding-top: 10px;">Maksimalin Closing WA</h4>
+                    <p class="desc_fitur" id="" style="background-color: rgb(0, 123, 255); font-family: Alatsi; line-height: 19px; padding-top: 10px; padding-bottom: 10px;">Minimalin biaya marketing</p>
                 </div><div class="card p-3" id="box_fitur_1">
-                    <div class="oval_box_fitur oval_1">1</div>
-                    <h4 class="title_fitur_1">Maksimalin Closing WA</h4>
-                    <p class="desc_fitur" id="">Minimalin biaya marketing</p>
+                    <div class="oval_box_fitur oval_1" style="background-color: rgb(12, 65, 151);">1</div>
+                    <h4 class="title_fitur_1" style="padding-bottom: 10px; padding-top: 10px;">Maksimalin Closing WA</h4>
+                    <p class="desc_fitur" id="" style="background-color: rgb(0, 123, 255); font-family: Alatsi; line-height: 19px; padding-top: 10px; padding-bottom: 10px;">Minimalin biaya marketing</p>
                 </div></div>
                     </div>
                 </div>
@@ -1543,75 +1098,8 @@ Vvveb.Sections.add("sections-header/header-1", {
 
     
 </div>`
-});Vvveb.Sections.add("sections-header/header-7", {
-    name: "Header 7",
-    image: Vvveb.themeBaseUrl + "/screenshots/sections-header/header-7-thumb.jpeg",
-    html: `<section class="header-7" title="header-7">
-      
-      <div class="container">
-        <div class="row justify-content-between">
-          <div class="col-lg-7 col-md-8">
-            <div class="main-banner">
-              <span class="text-color font-weight-bold">Fundamental Marketing</span>
-              <h1 class="mb-3 mt-2">Bagaimana otak kita bekerja</h1>
-              <div class="mb-4">
-                
-              </div>
-              <p class="mb-4">
-            Apakah Anda siap membawa bisnis Anda ke level berikutnya? Di era
-            digital ini, memiliki strategi pemasaran yang tepat adalah kunci
-            untuk meraih sukses </p>
-                          <a href="#" target="_blank" class="btn btn-main mt-2">Pesan sekarang&nbsp;<i class="ti-angle-right ml-3"></i></a>
-                        <section title="three columns" class="py-4">
-              <div class="container">
-                <div class="row">
-                  <div class="col  col-sm-4" id="boxed-5"><section title="two columns" class="py-4">
-              <div class="container">
-                <div class="row">
-                  <div class="col-2" style=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="22" height="64">
-                <path d="M 30.335938 12.546875 L 20.164063 11.472656 L 16 2.132813 L 11.835938 11.472656 L 1.664063 12.546875 L 9.261719 19.394531 L 7.140625 29.398438 L 16 24.289063 L 24.859375 29.398438 L 22.738281 19.394531 Z"></path>
-                </svg></div>
-                  <div class="col col-sm-10" style=""><p>Halaman<br></p><p>235</p></div>
-                </div>
-              </div>
-            </section></div>
-                  <div class="col col-sm-4" id="boxed-5"><section title="two columns" class="py-4">
-              <div class="container">
-                <div class="row">
-                  <div class="col-2" style=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="22" height="64">
-                <path d="M 30.335938 12.546875 L 20.164063 11.472656 L 16 2.132813 L 11.835938 11.472656 L 1.664063 12.546875 L 9.261719 19.394531 L 7.140625 29.398438 L 16 24.289063 L 24.859375 29.398438 L 22.738281 19.394531 Z"></path>
-                </svg></div>
-                  <div class="col col-sm-10" style=""><p>Bahasa</p><p>Indonesia</p></div>
-                </div>
-              </div>
-            </section></div>
-                  <div class="col col-sm-4" id="boxed-5"><section title="two columns" class="py-4">
-              <div class="container">
-                <div class="row">
-                  <div class="col-2" style=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="22" height="64">
-                <path d="M 30.335938 12.546875 L 20.164063 11.472656 L 16 2.132813 L 11.835938 11.472656 L 1.664063 12.546875 L 9.261719 19.394531 L 7.140625 29.398438 L 16 24.289063 L 24.859375 29.398438 L 22.738281 19.394531 Z"></path>
-                </svg></div>
-                  <div class="col col-sm-10" style=""><p>Rating<br></p><p>5/5 ( 300 )</p></div>
-                </div>
-              </div>
-            </section></div>
-                </div>
-              </div>
-            </section></div>
-          </div>
-          <div class="col-lg-5 d-none d-lg-block">
-            <div class="banner-img pt-5">
-              <img src="/public/media/813O7uSCLgL._SY466_.jpg" alt="" class="mw-100 align-center" width="419" height="566">
-            </div>
-          </div>
-        </div>
-      </div>
-    
-<div class="background-container"><img src="/public/media/background.jpg"></div>
-    
-</section>`
 });
-	Vvveb.SectionsGroup["Sections header"] = ["sections-header/header-1","sections-header/header-2","sections-header/header-3","sections-header/header-4","sections-header/header-5","sections-header/header-7"];
+	Vvveb.SectionsGroup["Sections header"] = ["sections-header/header-1","sections-header/header-2","sections-header/header-3","sections-header/header-4","sections-header/header-5"];
 Vvveb.Sections.add("sections-produk-detail/produk-detail-1", {
     name: "Produk detail 1",
     image: Vvveb.themeBaseUrl + "/screenshots/sections-produk-detail/produk-detail-1-thumb.jpeg",

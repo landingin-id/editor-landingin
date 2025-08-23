@@ -31,13 +31,13 @@ $admin_path .= strpos($admin_path, 'index.php') === false ? 'index.php' : '';
 $homeUrl     = Vvveb\Url('index/index');
 
 return
- [
- 	'dashboard' => [
- 		'name'   => __('Dashboards'),
- 		'url'    => $admin_path,
- 		'module' => 'index',
+ [	
+ 	'edit' => [
+ 		'name'   => __('Edit website'),
+ 		'url'    => $admin_path . "?module=editor/editor&url=$homeUrl&template=index.html",
+ 		'module' => 'editor/editor',
  		'action' => 'index',
- 		'icon'   => 'icon-pulse-outline',
+ 		'icon'   => 'icon-color-wand-outline',
  	],
  	'users' => [
  		'name'   => __('Users'),
@@ -55,5 +55,34 @@ return
  			]
  		],
  	],
- 	
+ 	'pages' => [
+ 		'name'     => __('Pages'),
+ 		'url'      => $admin_path . '?module=content/posts&type=page',
+ 		'module'   => 'content/posts',
+ 		'action'   => 'index',
+ 		'icon' 		  => 'icon-document-outline',
+ 		//'icon-img' => $admin_path . 'themes/default/img/svg/ionicons/ios-document-outline.svg',
+ 		//'icon-img' => $admin_path . 'themes/default/img/svg/ionicons/ios-photos-outline.svg',
+ 		'show_on_modules' => ['posts', 'post', 'pages', 'categories'],
+ 		'items'           => [
+ 			'pages' => [
+ 				'name'   => __('Pages'),
+ 				'url'    => $admin_path . '?module=content/posts&type=page',
+ 				'module' => 'content/posts',
+ 				'action' => 'index',
+ 				'icon'   => 'la la-file-invoice',
+ 			],
+ 			'taxonomy-heading' => [
+ 				'name'    => __('Taxonomy'),
+ 				'heading' => true,
+ 			],
+ 			'menus' => [
+ 				'name'   => __('Menus'),
+ 				'url'    => $admin_path . '?module=content/menus&type=page',
+ 				'module' => 'content/menus',
+ 				'action' => 'index',
+ 				'icon'   => 'la la-boxes',
+ 			]
+ 		]
+ 	]
  ];

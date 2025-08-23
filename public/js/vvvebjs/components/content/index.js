@@ -19,13 +19,15 @@
  */
 
 import { postsComponent } from './posts.js';
+import { menuComponent } from './menu.js';
 import { categoriesComponent } from './categories.js';
 import { archivesComponent } from './archives.js';
 import { recentPostsComponent } from './recentPosts.js';
 import { tagsComponent } from './tags.js';
 
 
-//Vvveb.Components.add("content/posts", postsComponent);
+Vvveb.Components.add("content/posts", postsComponent);
+Vvveb.Components.add("content/menu", menuComponent);
 //Vvveb.Components.add("content/categories", categoriesComponent);
 //Vvveb.Components.add("content/archives", archivesComponent);
 //Vvveb.Components.add("content/recentPosts", recentPostsComponent);
@@ -34,7 +36,7 @@ import { tagsComponent } from './tags.js';
 
 
 Vvveb.ComponentsGroup['Content'] = [
-	//"content/posts",
+	"content/posts",
 	//"content/categories",
 	//"content/archives",
 	//"content/recentPosts",
@@ -44,5 +46,5 @@ Vvveb.ComponentsGroup['Content'] = [
 	//"content/user",
 	//"content/language",
 	//"content/currency",
-	//"content/menu"
+	"content/menu"
 ];

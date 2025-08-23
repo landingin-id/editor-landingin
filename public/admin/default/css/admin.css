@@ -14742,7 +14742,7 @@ html[data-bs-theme="dark"] li[data-type][data-drag-type="component"] a {
 
 .blocks .drag-elements-sidepane li[data-type],
 .sections .drag-elements-sidepane li[data-type] {
-  width: 95%;
+  width: 94%;
   height: auto;
   min-height: 110px;
   position: relative;
@@ -14810,7 +14810,7 @@ html[data-bs-theme="dark"] li[data-type][data-drag-type="component"] a {
   content: " ";
   background: var(--bs-body-bg);
   background: var(--bs-primary);
-  width: 100%;
+  width: 94%;
   height: 100%;
   position: absolute;
   top: 0;

@@ -71,30 +71,6 @@ Prevents iframe mouse events that prevents clicking on the component
   [contenteditable="true"]:focus-visible {
     outline: none; }
 
-/* Canvas drag and scroll styles */
-#canvas {
-  overflow: auto;
-  cursor: default;
-  user-select: none;
-  position: relative;
-}
-
-/* Cursor berubah menjadi grab ketika Command ditekan */
-body.cmd-pressed #canvas {
-  cursor: grab;
-}
-
-body.cmd-pressed #canvas:active {
-  cursor: grabbing;
-}
-
-#iframe-wrapper {
-  min-width: 100%;
-  min-height: 100%;
-  transform-origin: 0 0;
-  transition: none;
-}
-
 .is-dragged {
   pointer-events: none;
   opacity: 0.15;

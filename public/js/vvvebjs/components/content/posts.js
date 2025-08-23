@@ -35,12 +35,6 @@ let template =
 				<img data-v-post-image="" class="card-img-top bg-body-secondary" src="/public/media/noimage-post.jpg" alt="Card image cap" width="357" height="341">
 			</div>
 			<div class="card-body"><section title="two columns" class="py-4">
-			<div class="container">
-				<div class="row">
-				<div class="col-lg-6"><h4 class="card-title"><span class="badge bg-warning" style="color:#fff" data-v-post-display_name="">Primary badge</span></h4></div>
-				<div class="      col-lg-4"><p data-v-post-comment_text class="text-end">0 Comments</p></div>
-				</div>
-			</div>
 			</section><p class=""></p><a href="/contoh-postingan-pertama-3" data-v-post-url="" title="Tips Perancangan Landing page yang baik dan benar"><h3 data-v-post-name="">Tips Perancangan Landing page yang baik dan benar.</h3></a>
 				<span data-v-post-excerpt="">Konten ini hanya contoh</span>
 			</div>
